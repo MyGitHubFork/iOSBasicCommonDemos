@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A079CEAB14E61029007E7B90 /* SSOUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A079CEAA14E61029007E7B90 /* SSOUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A079CEAF14E6133A007E7B90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A079CEAE14E6133A007E7B90 /* Security.framework */; };
+		A079CEB314E618E1007E7B90 /* EDLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A079CEB214E618E1007E7B90 /* EDLoginViewController.m */; };
+		A07B3A2F14E6049200E6657F /* EDUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A07B3A2E14E6049200E6657F /* EDUtils.m */; };
+		A0972D0D14F9813A0086B75A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0972D0B14F9813A0086B75A /* Default@2x.png */; };
+		A0972D0E14F9813A0086B75A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0972D0C14F9813A0086B75A /* Default.png */; };
+		A0CA316114D78C6E00DBA375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CA316014D78C6E00DBA375 /* UIKit.framework */; };
+		A0CA316314D78C6E00DBA375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CA316214D78C6E00DBA375 /* Foundation.framework */; };
+		A0CA316514D78C6E00DBA375 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0CA316414D78C6E00DBA375 /* CoreGraphics.framework */; };
+		A0CA316B14D78C6E00DBA375 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0CA316914D78C6E00DBA375 /* InfoPlist.strings */; };
+		A0CA316D14D78C6E00DBA375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA316C14D78C6E00DBA375 /* main.m */; };
+		A0CA317114D78C6E00DBA375 /* EDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA317014D78C6E00DBA375 /* EDAppDelegate.m */; };
+		A0CA317414D78C6E00DBA375 /* EDDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA317314D78C6E00DBA375 /* EDDirectoryViewController.m */; };
+		A0CA317714D78C6E00DBA375 /* EDEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA317614D78C6E00DBA375 /* EDEmployeeViewController.m */; };
+		A0CA317A14D78C6E00DBA375 /* EDDirectoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0CA317814D78C6E00DBA375 /* EDDirectoryViewController.xib */; };
+		A0CA317D14D78C6E00DBA375 /* EDEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0CA317B14D78C6E00DBA375 /* EDEmployeeViewController.xib */; };
+		A0CA318914D8CD2700DBA375 /* EDEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA318814D8CD2700DBA375 /* EDEmployee.m */; };
+		A0CA318C14D8D9A700DBA375 /* EDEmployeeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CA318B14D8D9A700DBA375 /* EDEmployeeManager.m */; };
+		A0E5FEB514F9863E00DD8DA6 /* Default-acme-directory.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E5FEB314F9863E00DD8DA6 /* Default-acme-directory.png */; };
+		A0E5FEB614F9863E00DD8DA6 /* Default-acme-directory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E5FEB414F9863E00DD8DA6 /* Default-acme-directory@2x.png */; };
+		A0E5FEEA14F9CD8300DD8DA6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E5FEE814F9CD8300DD8DA6 /* Icon@2x.png */; };
+		A0E5FEEB14F9CD8300DD8DA6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E5FEE914F9CD8300DD8DA6 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A079CEA914E61029007E7B90 /* SSOUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSOUtils.h; sourceTree = "<group>"; };
+		A079CEAA14E61029007E7B90 /* SSOUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSOUtils.m; sourceTree = "<group>"; };
+		A079CEAE14E6133A007E7B90 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A079CEB114E618E1007E7B90 /* EDLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDLoginViewController.h; sourceTree = "<group>"; };
+		A079CEB214E618E1007E7B90 /* EDLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDLoginViewController.m; sourceTree = "<group>"; };
+		A079CEB614E61BD6007E7B90 /* Employee Directory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Employee Directory.entitlements"; sourceTree = "<group>"; };
+		A07B3A2D14E6049200E6657F /* EDUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDUtils.h; sourceTree = "<group>"; };
+		A07B3A2E14E6049200E6657F /* EDUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDUtils.m; sourceTree = "<group>"; };
+		A0972D0B14F9813A0086B75A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A0972D0C14F9813A0086B75A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0CA315C14D78C6E00DBA375 /* Employee Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0CA316014D78C6E00DBA375 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0CA316214D78C6E00DBA375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0CA316414D78C6E00DBA375 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0CA316814D78C6E00DBA375 /* Employee Directory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Employee Directory-Info.plist"; sourceTree = "<group>"; };
+		A0CA316A14D78C6E00DBA375 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0CA316C14D78C6E00DBA375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0CA316E14D78C6E00DBA375 /* Employee Directory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Employee Directory-Prefix.pch"; sourceTree = "<group>"; };
+		A0CA316F14D78C6E00DBA375 /* EDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDAppDelegate.h; sourceTree = "<group>"; };
+		A0CA317014D78C6E00DBA375 /* EDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDAppDelegate.m; sourceTree = "<group>"; };
+		A0CA317214D78C6E00DBA375 /* EDDirectoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDDirectoryViewController.h; sourceTree = "<group>"; };
+		A0CA317314D78C6E00DBA375 /* EDDirectoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDDirectoryViewController.m; sourceTree = "<group>"; };
+		A0CA317514D78C6E00DBA375 /* EDEmployeeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDEmployeeViewController.h; sourceTree = "<group>"; };
+		A0CA317614D78C6E00DBA375 /* EDEmployeeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDEmployeeViewController.m; sourceTree = "<group>"; };
+		A0CA317914D78C6E00DBA375 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EDDirectoryViewController.xib; sourceTree = "<group>"; };
+		A0CA317C14D78C6E00DBA375 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EDEmployeeViewController.xib; sourceTree = "<group>"; };
+		A0CA318714D8CD2700DBA375 /* EDEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDEmployee.h; sourceTree = "<group>"; };
+		A0CA318814D8CD2700DBA375 /* EDEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDEmployee.m; sourceTree = "<group>"; };
+		A0CA318A14D8D9A700DBA375 /* EDEmployeeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDEmployeeManager.h; sourceTree = "<group>"; };
+		A0CA318B14D8D9A700DBA375 /* EDEmployeeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDEmployeeManager.m; sourceTree = "<group>"; };
+		A0E5FEB314F9863E00DD8DA6 /* Default-acme-directory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-acme-directory.png"; sourceTree = "<group>"; };
+		A0E5FEB414F9863E00DD8DA6 /* Default-acme-directory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-acme-directory@2x.png"; sourceTree = "<group>"; };
+		A0E5FEE814F9CD8300DD8DA6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A0E5FEE914F9CD8300DD8DA6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0CA315914D78C6E00DBA375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A079CEAF14E6133A007E7B90 /* Security.framework in Frameworks */,
+				A0CA316114D78C6E00DBA375 /* UIKit.framework in Frameworks */,
+				A0CA316314D78C6E00DBA375 /* Foundation.framework in Frameworks */,
+				A0CA316514D78C6E00DBA375 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A079CEA314E60F3C007E7B90 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A07B3A2D14E6049200E6657F /* EDUtils.h */,
+				A07B3A2E14E6049200E6657F /* EDUtils.m */,
+				A079CEA914E61029007E7B90 /* SSOUtils.h */,
+				A079CEAA14E61029007E7B90 /* SSOUtils.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A0972D1014F9813D0086B75A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0E5FEE914F9CD8300DD8DA6 /* Icon.png */,
+				A0E5FEE814F9CD8300DD8DA6 /* Icon@2x.png */,
+				A0972D0C14F9813A0086B75A /* Default.png */,
+				A0972D0B14F9813A0086B75A /* Default@2x.png */,
+				A0E5FEB314F9863E00DD8DA6 /* Default-acme-directory.png */,
+				A0E5FEB414F9863E00DD8DA6 /* Default-acme-directory@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A0CA315114D78C6D00DBA375 = {
+			isa = PBXGroup;
+			children = (
+				A0CA316614D78C6E00DBA375 /* Employee Directory */,
+				A0CA315F14D78C6E00DBA375 /* Frameworks */,
+				A0CA315D14D78C6E00DBA375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0CA315D14D78C6E00DBA375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA315C14D78C6E00DBA375 /* Employee Directory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0CA315F14D78C6E00DBA375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A079CEAE14E6133A007E7B90 /* Security.framework */,
+				A0CA316014D78C6E00DBA375 /* UIKit.framework */,
+				A0CA316214D78C6E00DBA375 /* Foundation.framework */,
+				A0CA316414D78C6E00DBA375 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0CA316614D78C6E00DBA375 /* Employee Directory */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA316F14D78C6E00DBA375 /* EDAppDelegate.h */,
+				A0CA317014D78C6E00DBA375 /* EDAppDelegate.m */,
+				A0CA317214D78C6E00DBA375 /* EDDirectoryViewController.h */,
+				A0CA317314D78C6E00DBA375 /* EDDirectoryViewController.m */,
+				A0CA317814D78C6E00DBA375 /* EDDirectoryViewController.xib */,
+				A0CA317514D78C6E00DBA375 /* EDEmployeeViewController.h */,
+				A0CA317614D78C6E00DBA375 /* EDEmployeeViewController.m */,
+				A0CA317B14D78C6E00DBA375 /* EDEmployeeViewController.xib */,
+				A079CEB114E618E1007E7B90 /* EDLoginViewController.h */,
+				A079CEB214E618E1007E7B90 /* EDLoginViewController.m */,
+				A079CEA314E60F3C007E7B90 /* Utilities */,
+				A0CA318D14D8D9AD00DBA375 /* Model */,
+				A0CA316714D78C6E00DBA375 /* Supporting Files */,
+				A0972D1014F9813D0086B75A /* Resources */,
+			);
+			path = "Employee Directory";
+			sourceTree = "<group>";
+		};
+		A0CA316714D78C6E00DBA375 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A079CEB614E61BD6007E7B90 /* Employee Directory.entitlements */,
+				A0CA316814D78C6E00DBA375 /* Employee Directory-Info.plist */,
+				A0CA316914D78C6E00DBA375 /* InfoPlist.strings */,
+				A0CA316C14D78C6E00DBA375 /* main.m */,
+				A0CA316E14D78C6E00DBA375 /* Employee Directory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0CA318D14D8D9AD00DBA375 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0CA318A14D8D9A700DBA375 /* EDEmployeeManager.h */,
+				A0CA318B14D8D9A700DBA375 /* EDEmployeeManager.m */,
+				A0CA318714D8CD2700DBA375 /* EDEmployee.h */,
+				A0CA318814D8CD2700DBA375 /* EDEmployee.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0CA315B14D78C6E00DBA375 /* Employee Directory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0CA318014D78C6E00DBA375 /* Build configuration list for PBXNativeTarget "Employee Directory" */;
+			buildPhases = (
+				A0CA315814D78C6E00DBA375 /* Sources */,
+				A0CA315914D78C6E00DBA375 /* Frameworks */,
+				A0CA315A14D78C6E00DBA375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Employee Directory";
+			productName = "Employee Directory";
+			productReference = A0CA315C14D78C6E00DBA375 /* Employee Directory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0CA315314D78C6D00DBA375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "John Szumski";
+			};
+			buildConfigurationList = A0CA315614D78C6D00DBA375 /* Build configuration list for PBXProject "Employee Directory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0CA315114D78C6D00DBA375;
+			productRefGroup = A0CA315D14D78C6E00DBA375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0CA315B14D78C6E00DBA375 /* Employee Directory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0CA315A14D78C6E00DBA375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA316B14D78C6E00DBA375 /* InfoPlist.strings in Resources */,
+				A0CA317A14D78C6E00DBA375 /* EDDirectoryViewController.xib in Resources */,
+				A0CA317D14D78C6E00DBA375 /* EDEmployeeViewController.xib in Resources */,
+				A0972D0D14F9813A0086B75A /* Default@2x.png in Resources */,
+				A0972D0E14F9813A0086B75A /* Default.png in Resources */,
+				A0E5FEB514F9863E00DD8DA6 /* Default-acme-directory.png in Resources */,
+				A0E5FEB614F9863E00DD8DA6 /* Default-acme-directory@2x.png in Resources */,
+				A0E5FEEA14F9CD8300DD8DA6 /* Icon@2x.png in Resources */,
+				A0E5FEEB14F9CD8300DD8DA6 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0CA315814D78C6E00DBA375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA316D14D78C6E00DBA375 /* main.m in Sources */,
+				A0CA317114D78C6E00DBA375 /* EDAppDelegate.m in Sources */,
+				A0CA317414D78C6E00DBA375 /* EDDirectoryViewController.m in Sources */,
+				A0CA317714D78C6E00DBA375 /* EDEmployeeViewController.m in Sources */,
+				A0CA318914D8CD2700DBA375 /* EDEmployee.m in Sources */,
+				A0CA318C14D8D9A700DBA375 /* EDEmployeeManager.m in Sources */,
+				A07B3A2F14E6049200E6657F /* EDUtils.m in Sources */,
+				A079CEAB14E61029007E7B90 /* SSOUtils.m in Sources */,
+				A079CEB314E618E1007E7B90 /* EDLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0CA316914D78C6E00DBA375 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CA316A14D78C6E00DBA375 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0CA317814D78C6E00DBA375 /* EDDirectoryViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CA317914D78C6E00DBA375 /* en */,
+			);
+			name = EDDirectoryViewController.xib;
+			sourceTree = "<group>";
+		};
+		A0CA317B14D78C6E00DBA375 /* EDEmployeeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0CA317C14D78C6E00DBA375 /* en */,
+			);
+			name = EDEmployeeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0CA317E14D78C6E00DBA375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0CA317F14D78C6E00DBA375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0CA318114D78C6E00DBA375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Employee Directory/Employee Directory.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Employee Directory/Employee Directory-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Employee Directory/Employee Directory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0CA318214D78C6E00DBA375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Employee Directory/Employee Directory.entitlements";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Employee Directory/Employee Directory-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Employee Directory/Employee Directory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0CA315614D78C6D00DBA375 /* Build configuration list for PBXProject "Employee Directory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA317E14D78C6E00DBA375 /* Debug */,
+				A0CA317F14D78C6E00DBA375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0CA318014D78C6E00DBA375 /* Build configuration list for PBXNativeTarget "Employee Directory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA318114D78C6E00DBA375 /* Debug */,
+				A0CA318214D78C6E00DBA375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0CA315314D78C6D00DBA375 /* Project object */;
+}

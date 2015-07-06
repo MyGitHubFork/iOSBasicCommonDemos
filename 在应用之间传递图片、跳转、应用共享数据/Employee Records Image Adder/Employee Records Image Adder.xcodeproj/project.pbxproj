@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0302B5714F9D0B300A040B3 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0302B5514F9D0B300A040B3 /* Icon.png */; };
+		A0302B5814F9D0B300A040B3 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0302B5614F9D0B300A040B3 /* Icon@2x.png */; };
+		A0C9299B14EC9A3C00EE1DEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C9299A14EC9A3C00EE1DEC /* UIKit.framework */; };
+		A0C9299D14EC9A3C00EE1DEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C9299C14EC9A3C00EE1DEC /* Foundation.framework */; };
+		A0C9299F14EC9A3C00EE1DEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C9299E14EC9A3C00EE1DEC /* CoreGraphics.framework */; };
+		A0C929A514EC9A3C00EE1DEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A0C929A314EC9A3C00EE1DEC /* InfoPlist.strings */; };
+		A0C929A714EC9A3C00EE1DEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C929A614EC9A3C00EE1DEC /* main.m */; };
+		A0C929AB14EC9A3C00EE1DEC /* IAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C929AA14EC9A3C00EE1DEC /* IAAppDelegate.m */; };
+		A0C929AE14EC9A3D00EE1DEC /* IAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C929AD14EC9A3D00EE1DEC /* IAViewController.m */; };
+		A0C929B114EC9A3D00EE1DEC /* IAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C929AF14EC9A3D00EE1DEC /* IAViewController.xib */; };
+		A0C929B814EC9BEB00EE1DEC /* w2.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C929B714EC9BEB00EE1DEC /* w2.png */; };
+		A0C929BE14ECA15700EE1DEC /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C929BD14ECA15700EE1DEC /* NSData+Base64.m */; };
+		A0C929CA14ECAC9100EE1DEC /* IAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C929C914ECAC9100EE1DEC /* IAUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A0E5FEA214F9831A00DD8DA6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E5FEA014F9831A00DD8DA6 /* Default.png */; };
+		A0E5FEA314F9831A00DD8DA6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0E5FEA114F9831A00DD8DA6 /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0302B5514F9D0B300A040B3 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A0302B5614F9D0B300A040B3 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A0C9299614EC9A3C00EE1DEC /* Employee Records Image Adder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Employee Records Image Adder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C9299A14EC9A3C00EE1DEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0C9299C14EC9A3C00EE1DEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A0C9299E14EC9A3C00EE1DEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A0C929A214EC9A3C00EE1DEC /* Employee Records Image Adder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Employee Records Image Adder-Info.plist"; sourceTree = "<group>"; };
+		A0C929A414EC9A3C00EE1DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A0C929A614EC9A3C00EE1DEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0C929A814EC9A3C00EE1DEC /* Employee Records Image Adder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Employee Records Image Adder-Prefix.pch"; sourceTree = "<group>"; };
+		A0C929A914EC9A3C00EE1DEC /* IAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAAppDelegate.h; sourceTree = "<group>"; };
+		A0C929AA14EC9A3C00EE1DEC /* IAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAAppDelegate.m; sourceTree = "<group>"; };
+		A0C929AC14EC9A3C00EE1DEC /* IAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAViewController.h; sourceTree = "<group>"; };
+		A0C929AD14EC9A3D00EE1DEC /* IAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAViewController.m; sourceTree = "<group>"; };
+		A0C929B014EC9A3D00EE1DEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IAViewController.xib; sourceTree = "<group>"; };
+		A0C929B714EC9BEB00EE1DEC /* w2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w2.png; sourceTree = "<group>"; };
+		A0C929BC14ECA15700EE1DEC /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		A0C929BD14ECA15700EE1DEC /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		A0C929C814ECAC9100EE1DEC /* IAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAUtils.h; sourceTree = "<group>"; };
+		A0C929C914ECAC9100EE1DEC /* IAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAUtils.m; sourceTree = "<group>"; };
+		A0E5FEA014F9831A00DD8DA6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A0E5FEA114F9831A00DD8DA6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0C9299314EC9A3C00EE1DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C9299B14EC9A3C00EE1DEC /* UIKit.framework in Frameworks */,
+				A0C9299D14EC9A3C00EE1DEC /* Foundation.framework in Frameworks */,
+				A0C9299F14EC9A3C00EE1DEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A016B2FA14F0246C00C46487 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0302B5514F9D0B300A040B3 /* Icon.png */,
+				A0302B5614F9D0B300A040B3 /* Icon@2x.png */,
+				A0E5FEA014F9831A00DD8DA6 /* Default.png */,
+				A0E5FEA114F9831A00DD8DA6 /* Default@2x.png */,
+				A0C929B714EC9BEB00EE1DEC /* w2.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A0C9298B14EC9A3C00EE1DEC = {
+			isa = PBXGroup;
+			children = (
+				A0C929A014EC9A3C00EE1DEC /* Employee Records Image Adder */,
+				A0C9299914EC9A3C00EE1DEC /* Frameworks */,
+				A0C9299714EC9A3C00EE1DEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0C9299714EC9A3C00EE1DEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9299614EC9A3C00EE1DEC /* Employee Records Image Adder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C9299914EC9A3C00EE1DEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C9299A14EC9A3C00EE1DEC /* UIKit.framework */,
+				A0C9299C14EC9A3C00EE1DEC /* Foundation.framework */,
+				A0C9299E14EC9A3C00EE1DEC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C929A014EC9A3C00EE1DEC /* Employee Records Image Adder */ = {
+			isa = PBXGroup;
+			children = (
+				A0C929A914EC9A3C00EE1DEC /* IAAppDelegate.h */,
+				A0C929AA14EC9A3C00EE1DEC /* IAAppDelegate.m */,
+				A0C929AC14EC9A3C00EE1DEC /* IAViewController.h */,
+				A0C929AD14EC9A3D00EE1DEC /* IAViewController.m */,
+				A0C929AF14EC9A3D00EE1DEC /* IAViewController.xib */,
+				A0C929BC14ECA15700EE1DEC /* NSData+Base64.h */,
+				A0C929BD14ECA15700EE1DEC /* NSData+Base64.m */,
+				A0C929C814ECAC9100EE1DEC /* IAUtils.h */,
+				A0C929C914ECAC9100EE1DEC /* IAUtils.m */,
+				A0C929A114EC9A3C00EE1DEC /* Supporting Files */,
+				A016B2FA14F0246C00C46487 /* Resources */,
+			);
+			path = "Employee Records Image Adder";
+			sourceTree = "<group>";
+		};
+		A0C929A114EC9A3C00EE1DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0C929A214EC9A3C00EE1DEC /* Employee Records Image Adder-Info.plist */,
+				A0C929A314EC9A3C00EE1DEC /* InfoPlist.strings */,
+				A0C929A614EC9A3C00EE1DEC /* main.m */,
+				A0C929A814EC9A3C00EE1DEC /* Employee Records Image Adder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0C9299514EC9A3C00EE1DEC /* Employee Records Image Adder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0C929B414EC9A3D00EE1DEC /* Build configuration list for PBXNativeTarget "Employee Records Image Adder" */;
+			buildPhases = (
+				A0C9299214EC9A3C00EE1DEC /* Sources */,
+				A0C9299314EC9A3C00EE1DEC /* Frameworks */,
+				A0C9299414EC9A3C00EE1DEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Employee Records Image Adder";
+			productName = "Employee Records Image Adder";
+			productReference = A0C9299614EC9A3C00EE1DEC /* Employee Records Image Adder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0C9298D14EC9A3C00EE1DEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A0C9299014EC9A3C00EE1DEC /* Build configuration list for PBXProject "Employee Records Image Adder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0C9298B14EC9A3C00EE1DEC;
+			productRefGroup = A0C9299714EC9A3C00EE1DEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0C9299514EC9A3C00EE1DEC /* Employee Records Image Adder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0C9299414EC9A3C00EE1DEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C929A514EC9A3C00EE1DEC /* InfoPlist.strings in Resources */,
+				A0C929B114EC9A3D00EE1DEC /* IAViewController.xib in Resources */,
+				A0C929B814EC9BEB00EE1DEC /* w2.png in Resources */,
+				A0E5FEA214F9831A00DD8DA6 /* Default.png in Resources */,
+				A0E5FEA314F9831A00DD8DA6 /* Default@2x.png in Resources */,
+				A0302B5714F9D0B300A040B3 /* Icon.png in Resources */,
+				A0302B5814F9D0B300A040B3 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0C9299214EC9A3C00EE1DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C929A714EC9A3C00EE1DEC /* main.m in Sources */,
+				A0C929AB14EC9A3C00EE1DEC /* IAAppDelegate.m in Sources */,
+				A0C929AE14EC9A3D00EE1DEC /* IAViewController.m in Sources */,
+				A0C929BE14ECA15700EE1DEC /* NSData+Base64.m in Sources */,
+				A0C929CA14ECAC9100EE1DEC /* IAUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0C929A314EC9A3C00EE1DEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C929A414EC9A3C00EE1DEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A0C929AF14EC9A3D00EE1DEC /* IAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0C929B014EC9A3D00EE1DEC /* en */,
+			);
+			name = IAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0C929B214EC9A3D00EE1DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A0C929B314EC9A3D00EE1DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0C929B514EC9A3D00EE1DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Employee Records Image Adder/Employee Records Image Adder-Prefix.pch";
+				INFOPLIST_FILE = "Employee Records Image Adder/Employee Records Image Adder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A0C929B614EC9A3D00EE1DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Employee Records Image Adder/Employee Records Image Adder-Prefix.pch";
+				INFOPLIST_FILE = "Employee Records Image Adder/Employee Records Image Adder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0C9299014EC9A3C00EE1DEC /* Build configuration list for PBXProject "Employee Records Image Adder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C929B214EC9A3D00EE1DEC /* Debug */,
+				A0C929B314EC9A3D00EE1DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0C929B414EC9A3D00EE1DEC /* Build configuration list for PBXNativeTarget "Employee Records Image Adder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0C929B514EC9A3D00EE1DEC /* Debug */,
+				A0C929B614EC9A3D00EE1DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0C9298D14EC9A3C00EE1DEC /* Project object */;
+}

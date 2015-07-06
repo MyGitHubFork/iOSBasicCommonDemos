@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50DE5425-E24D-4FC0-A54D-6F9838DAEA45</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Employee Directory</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F0F3E05079B14CFCC8C6659F48564040AB06CD6E</key>
+		<string>https://github.com/huang303513/Professional-iOS-Network-Programming.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS网络高级编程/Full Code Download/Ch 11 Code/Employee Directory/Employee Directory.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F0F3E05079B14CFCC8C6659F48564040AB06CD6E</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/Professional-iOS-Network-Programming.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F0F3E05079B14CFCC8C6659F48564040AB06CD6E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F0F3E05079B14CFCC8C6659F48564040AB06CD6E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Professional-iOS-Network-Programming</string>
+		</dict>
+	</array>
+</dict>
+</plist>
