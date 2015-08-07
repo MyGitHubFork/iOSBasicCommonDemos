@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>BF0555EA-F935-455F-AC98-1CD1672FE020</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Masonry各种Demo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
 		<string>https://github.com/huang303513/disorderedSourceCode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Masonry各种Demo/Masonry各种Demo.xcodeproj/project.xcworkspace</string>
+	<string>Masonry各种Demo/Masonry各种Demo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>

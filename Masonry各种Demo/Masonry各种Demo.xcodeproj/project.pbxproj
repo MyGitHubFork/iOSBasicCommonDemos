@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D7004471B74EAE6000DDA41 /* UIView+LJC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7004461B74EAE6000DDA41 /* UIView+LJC.m */; };
 		DD102D341B74B317006B202E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD102D331B74B317006B202E /* main.m */; };
 		DD102D371B74B317006B202E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD102D361B74B317006B202E /* AppDelegate.m */; };
 		DD102D3A1B74B317006B202E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD102D391B74B317006B202E /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D7004451B74EAE6000DDA41 /* UIView+LJC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LJC.h"; sourceTree = "<group>"; };
+		4D7004461B74EAE6000DDA41 /* UIView+LJC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LJC.m"; sourceTree = "<group>"; };
 		DD102D2E1B74B317006B202E /* Masonry各种Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masonry各种Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD102D321B74B317006B202E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD102D331B74B317006B202E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 		DD102D301B74B317006B202E /* Masonry各种Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4D7004451B74EAE6000DDA41 /* UIView+LJC.h */,
+				4D7004461B74EAE6000DDA41 /* UIView+LJC.m */,
 				DD102D351B74B317006B202E /* AppDelegate.h */,
 				DD102D361B74B317006B202E /* AppDelegate.m */,
 				DD102D381B74B317006B202E /* ViewController.h */,
@@ -312,6 +317,7 @@
 				DD102D371B74B317006B202E /* AppDelegate.m in Sources */,
 				DD102D761B74B3BB006B202E /* MASLayoutConstraint.m in Sources */,
 				DD102D341B74B317006B202E /* main.m in Sources */,
+				4D7004471B74EAE6000DDA41 /* UIView+LJC.m in Sources */,
 				DD102D7C1B74B3BB006B202E /* ViewController+MASAdditions.m in Sources */,
 				DD102D7B1B74B3BB006B202E /* View+MASAdditions.m in Sources */,
 				DD102D771B74B3BB006B202E /* MASViewAttribute.m in Sources */,
@@ -512,6 +518,7 @@
 				DD102D531B74B317006B202E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD102D541B74B317006B202E /* Build configuration list for PBXNativeTarget "Masonry各种DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +527,7 @@
 				DD102D561B74B317006B202E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
