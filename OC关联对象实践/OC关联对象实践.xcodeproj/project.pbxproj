@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDCA848A1B75D58300F162A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84891B75D58300F162A6 /* main.m */; };
+		DDCA848D1B75D58300F162A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA848C1B75D58300F162A6 /* AppDelegate.m */; };
+		DDCA84901B75D58300F162A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA848F1B75D58300F162A6 /* ViewController.m */; };
+		DDCA84931B75D58300F162A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDCA84911B75D58300F162A6 /* Main.storyboard */; };
+		DDCA84951B75D58300F162A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCA84941B75D58300F162A6 /* Images.xcassets */; };
+		DDCA84981B75D58300F162A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCA84961B75D58300F162A6 /* LaunchScreen.xib */; };
+		DDCA84A41B75D58300F162A6 /* OC______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84A31B75D58300F162A6 /* OC______Tests.m */; };
+		DDCA84AF1B75D61300F162A6 /* UIViewController+HCDViewControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA84AE1B75D61300F162A6 /* UIViewController+HCDViewControllerCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDCA849E1B75D58300F162A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA847C1B75D58300F162A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCA84831B75D58300F162A6;
+			remoteInfo = "OC关联对象实践";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDCA84841B75D58300F162A6 /* OC关联对象实践.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC关联对象实践.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCA84881B75D58300F162A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCA84891B75D58300F162A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDCA848B1B75D58300F162A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDCA848C1B75D58300F162A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDCA848E1B75D58300F162A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDCA848F1B75D58300F162A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDCA84921B75D58300F162A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDCA84941B75D58300F162A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DDCA84971B75D58300F162A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DDCA849D1B75D58300F162A6 /* OC关联对象实践Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC关联对象实践Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCA84A21B75D58300F162A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDCA84A31B75D58300F162A6 /* OC______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OC______Tests.m"; sourceTree = "<group>"; };
+		DDCA84AD1B75D61300F162A6 /* UIViewController+HCDViewControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HCDViewControllerCategory.h"; sourceTree = "<group>"; };
+		DDCA84AE1B75D61300F162A6 /* UIViewController+HCDViewControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HCDViewControllerCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCA84811B75D58300F162A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA849A1B75D58300F162A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCA847B1B75D58300F162A6 = {
+			isa = PBXGroup;
+			children = (
+				DDCA84861B75D58300F162A6 /* OC关联对象实践 */,
+				DDCA84A01B75D58300F162A6 /* OC关联对象实践Tests */,
+				DDCA84851B75D58300F162A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCA84851B75D58300F162A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA84841B75D58300F162A6 /* OC关联对象实践.app */,
+				DDCA849D1B75D58300F162A6 /* OC关联对象实践Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCA84861B75D58300F162A6 /* OC关联对象实践 */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA848B1B75D58300F162A6 /* AppDelegate.h */,
+				DDCA848C1B75D58300F162A6 /* AppDelegate.m */,
+				DDCA848E1B75D58300F162A6 /* ViewController.h */,
+				DDCA848F1B75D58300F162A6 /* ViewController.m */,
+				DDCA84911B75D58300F162A6 /* Main.storyboard */,
+				DDCA84941B75D58300F162A6 /* Images.xcassets */,
+				DDCA84961B75D58300F162A6 /* LaunchScreen.xib */,
+				DDCA84871B75D58300F162A6 /* Supporting Files */,
+				DDCA84AD1B75D61300F162A6 /* UIViewController+HCDViewControllerCategory.h */,
+				DDCA84AE1B75D61300F162A6 /* UIViewController+HCDViewControllerCategory.m */,
+			);
+			path = "OC关联对象实践";
+			sourceTree = "<group>";
+		};
+		DDCA84871B75D58300F162A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA84881B75D58300F162A6 /* Info.plist */,
+				DDCA84891B75D58300F162A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDCA84A01B75D58300F162A6 /* OC关联对象实践Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA84A31B75D58300F162A6 /* OC______Tests.m */,
+				DDCA84A11B75D58300F162A6 /* Supporting Files */,
+			);
+			path = "OC关联对象实践Tests";
+			sourceTree = "<group>";
+		};
+		DDCA84A11B75D58300F162A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA84A21B75D58300F162A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCA84831B75D58300F162A6 /* OC关联对象实践 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA84A71B75D58300F162A6 /* Build configuration list for PBXNativeTarget "OC关联对象实践" */;
+			buildPhases = (
+				DDCA84801B75D58300F162A6 /* Sources */,
+				DDCA84811B75D58300F162A6 /* Frameworks */,
+				DDCA84821B75D58300F162A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OC关联对象实践";
+			productName = "OC关联对象实践";
+			productReference = DDCA84841B75D58300F162A6 /* OC关联对象实践.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDCA849C1B75D58300F162A6 /* OC关联对象实践Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA84AA1B75D58300F162A6 /* Build configuration list for PBXNativeTarget "OC关联对象实践Tests" */;
+			buildPhases = (
+				DDCA84991B75D58300F162A6 /* Sources */,
+				DDCA849A1B75D58300F162A6 /* Frameworks */,
+				DDCA849B1B75D58300F162A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCA849F1B75D58300F162A6 /* PBXTargetDependency */,
+			);
+			name = "OC关联对象实践Tests";
+			productName = "OC关联对象实践Tests";
+			productReference = DDCA849D1B75D58300F162A6 /* OC关联对象实践Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCA847C1B75D58300F162A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					DDCA84831B75D58300F162A6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DDCA849C1B75D58300F162A6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DDCA84831B75D58300F162A6;
+					};
+				};
+			};
+			buildConfigurationList = DDCA847F1B75D58300F162A6 /* Build configuration list for PBXProject "OC关联对象实践" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCA847B1B75D58300F162A6;
+			productRefGroup = DDCA84851B75D58300F162A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCA84831B75D58300F162A6 /* OC关联对象实践 */,
+				DDCA849C1B75D58300F162A6 /* OC关联对象实践Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCA84821B75D58300F162A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA84931B75D58300F162A6 /* Main.storyboard in Resources */,
+				DDCA84981B75D58300F162A6 /* LaunchScreen.xib in Resources */,
+				DDCA84951B75D58300F162A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA849B1B75D58300F162A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCA84801B75D58300F162A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA84901B75D58300F162A6 /* ViewController.m in Sources */,
+				DDCA848D1B75D58300F162A6 /* AppDelegate.m in Sources */,
+				DDCA848A1B75D58300F162A6 /* main.m in Sources */,
+				DDCA84AF1B75D61300F162A6 /* UIViewController+HCDViewControllerCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA84991B75D58300F162A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA84A41B75D58300F162A6 /* OC______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCA849F1B75D58300F162A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCA84831B75D58300F162A6 /* OC关联对象实践 */;
+			targetProxy = DDCA849E1B75D58300F162A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDCA84911B75D58300F162A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCA84921B75D58300F162A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDCA84961B75D58300F162A6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDCA84971B75D58300F162A6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDCA84A51B75D58300F162A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDCA84A61B75D58300F162A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDCA84A81B75D58300F162A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC关联对象实践/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDCA84A91B75D58300F162A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OC关联对象实践/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDCA84AB1B75D58300F162A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OC关联对象实践Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC关联对象实践.app/OC关联对象实践";
+			};
+			name = Debug;
+		};
+		DDCA84AC1B75D58300F162A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OC关联对象实践Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OC关联对象实践.app/OC关联对象实践";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCA847F1B75D58300F162A6 /* Build configuration list for PBXProject "OC关联对象实践" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA84A51B75D58300F162A6 /* Debug */,
+				DDCA84A61B75D58300F162A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCA84A71B75D58300F162A6 /* Build configuration list for PBXNativeTarget "OC关联对象实践" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA84A81B75D58300F162A6 /* Debug */,
+				DDCA84A91B75D58300F162A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDCA84AA1B75D58300F162A6 /* Build configuration list for PBXNativeTarget "OC关联对象实践Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA84AB1B75D58300F162A6 /* Debug */,
+				DDCA84AC1B75D58300F162A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCA847C1B75D58300F162A6 /* Project object */;
+}

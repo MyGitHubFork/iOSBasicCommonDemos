@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D26B50EC-2892-4009-98FD-6358B18111DE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OC关联对象实践</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
+		<string>https://github.com/huang303513/disorderedSourceCode.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OC关联对象实践/OC关联对象实践.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/disorderedSourceCode.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D38D50234B6E808ED66E056F104275915B8744DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D38D50234B6E808ED66E056F104275915B8744DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>disorderedSourceCode</string>
+		</dict>
+	</array>
+</dict>
+</plist>
