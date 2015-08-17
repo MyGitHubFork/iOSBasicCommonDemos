@@ -16,6 +16,15 @@ class ViewController: UIViewController {
         a.adjust();
         print(a.simpleDescription)
         print("\n")
+        
+        var b = SimpleStructure()
+        b.adjust()
+        let bDescription = b.simpleDescription
+        print(b.simpleDescription)
+        print("\n")
+        print("=============Int扩展=================")
+        print("\n")
+        print(7.simpleDescription)
     }
 
     override func didReceiveMemoryWarning() {

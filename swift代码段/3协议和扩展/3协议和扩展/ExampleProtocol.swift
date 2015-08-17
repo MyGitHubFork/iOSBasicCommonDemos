@@ -10,5 +10,5 @@ import Foundation
 
 protocol ExampleProtocol{
     var simpleDescription:String{get}
-    mutating func adjust()
+    mutating func adjust()//注意声明SimpleStructure时候mutating关键字用来标记一个会修改结构体的方法
 }

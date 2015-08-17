@@ -15,6 +15,7 @@
 		DD0BAD1A1B81B44700DF2FE0 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BAD191B81B44700DF2FE0 /* ______Tests.swift */; };
 		DD0BAD241B81B66100DF2FE0 /* ExampleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BAD231B81B66100DF2FE0 /* ExampleProtocol.swift */; };
 		DD0BAD261B81B6A800DF2FE0 /* UseOfProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BAD251B81B6A800DF2FE0 /* UseOfProtocol.swift */; };
+		DD0BAD281B81BF8E00DF2FE0 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0BAD271B81BF8E00DF2FE0 /* IntExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		DD0BAD191B81B44700DF2FE0 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
 		DD0BAD231B81B66100DF2FE0 /* ExampleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProtocol.swift; sourceTree = "<group>"; };
 		DD0BAD251B81B6A800DF2FE0 /* UseOfProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseOfProtocol.swift; sourceTree = "<group>"; };
+		DD0BAD271B81BF8E00DF2FE0 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				DD0BAD011B81B44700DF2FE0 /* Supporting Files */,
 				DD0BAD231B81B66100DF2FE0 /* ExampleProtocol.swift */,
 				DD0BAD251B81B6A800DF2FE0 /* UseOfProtocol.swift */,
+				DD0BAD271B81BF8E00DF2FE0 /* IntExtension.swift */,
 			);
 			path = "3协议和扩展";
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				DD0BAD061B81B44700DF2FE0 /* ViewController.swift in Sources */,
 				DD0BAD041B81B44700DF2FE0 /* AppDelegate.swift in Sources */,
 				DD0BAD261B81B6A800DF2FE0 /* UseOfProtocol.swift in Sources */,
+				DD0BAD281B81BF8E00DF2FE0 /* IntExtension.swift in Sources */,
 				DD0BAD241B81B66100DF2FE0 /* ExampleProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +421,7 @@
 				DD0BAD1F1B81B44700DF2FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD0BAD201B81B44700DF2FE0 /* Build configuration list for PBXNativeTarget "3协议和扩展Tests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				DD0BAD221B81B44700DF2FE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

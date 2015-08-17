@@ -15,3 +15,10 @@ class SimpleClass: ExampleProtocol {
         simpleDescription += "Now 100% adjusted."
     }
 }
+
+struct SimpleStructure:ExampleProtocol {
+    var simpleDescription:String = "A simple structure"
+    mutating func adjust() {
+        simpleDescription += " (adjusted)"
+    }
+}
