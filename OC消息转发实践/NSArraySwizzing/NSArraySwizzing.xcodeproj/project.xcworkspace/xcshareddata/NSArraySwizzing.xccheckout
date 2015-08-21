@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A9531DAA-D99A-4F2E-B583-82A970457320</string>
+	<string>24173D9E-2884-41EA-85EB-B1A605AB5886</string>
 	<key>IDESourceControlProjectName</key>
-	<string>OC消息转发</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
 		<string>https://github.com/huang303513/disorderedSourceCode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>OC消息转发/OC消息转发.xcodeproj</string>
+	<string>OC消息转发实践/NSArraySwizzing/NSArraySwizzing.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/huang303513/disorderedSourceCode.git</string>
