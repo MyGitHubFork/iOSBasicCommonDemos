@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD8B660A1B8826B200691B1F /* HCDNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8B66091B8826B200691B1F /* HCDNavigationViewController.m */; };
 		DDC58B731B8726CA005D6BC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58B721B8726CA005D6BC5 /* main.m */; };
 		DDC58B761B8726CA005D6BC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58B751B8726CA005D6BC5 /* AppDelegate.m */; };
 		DDC58B791B8726CA005D6BC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC58B781B8726CA005D6BC5 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD8B66081B8826B200691B1F /* HCDNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCDNavigationViewController.h; sourceTree = "<group>"; };
+		DD8B66091B8826B200691B1F /* HCDNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCDNavigationViewController.m; sourceTree = "<group>"; };
 		DDC58B6D1B8726CA005D6BC5 /* 导航控制器全屏滑动返回.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "导航控制器全屏滑动返回.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC58B711B8726CA005D6BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDC58B721B8726CA005D6BC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,6 +100,8 @@
 				DDC58B961B872705005D6BC5 /* SecondViewController.h */,
 				DDC58B971B872705005D6BC5 /* SecondViewController.m */,
 				DDC58B981B872705005D6BC5 /* SecondViewController.xib */,
+				DD8B66081B8826B200691B1F /* HCDNavigationViewController.h */,
+				DD8B66091B8826B200691B1F /* HCDNavigationViewController.m */,
 			);
 			path = "导航控制器全屏滑动返回";
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC58B991B872705005D6BC5 /* SecondViewController.m in Sources */,
+				DD8B660A1B8826B200691B1F /* HCDNavigationViewController.m in Sources */,
 				DDC58B791B8726CA005D6BC5 /* ViewController.m in Sources */,
 				DDC58B761B8726CA005D6BC5 /* AppDelegate.m in Sources */,
 				DDC58B731B8726CA005D6BC5 /* main.m in Sources */,
@@ -426,6 +432,7 @@
 				DDC58B921B8726CA005D6BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DDC58B931B8726CA005D6BC5 /* Build configuration list for PBXNativeTarget "导航控制器全屏滑动返回Tests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				DDC58B951B8726CA005D6BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

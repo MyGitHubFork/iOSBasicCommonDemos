@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SecondViewController.h"
+#import "HCDNavigationViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)clickButton:(id)sender {
     [self.navigationController pushViewController:[[SecondViewController alloc]init] animated:YES];

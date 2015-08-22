@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="tJm-kj-HFC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="98u-ac-VhN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
@@ -19,7 +19,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="clickButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="i27-oq-RYH"/>
+                                    <action selector="clickButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bEi-Ek-h1b"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -29,25 +29,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="600" y="393"/>
+            <point key="canvasLocation" x="864" y="387"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ZbX-Hd-BI7">
+        <!--Navigation View Controller-->
+        <scene sceneID="iIW-3s-OHI">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tJm-kj-HFC" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="98u-ac-VhN" customClass="HCDNavigationViewController" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="U3x-nP-vqS">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xLI-IA-pzR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="oGk-NV-he4"/>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="HG7-9B-mKh"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DxF-XP-ZEC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mWd-nf-vBu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="68" y="393"/>
+            <point key="canvasLocation" x="332" y="387"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
