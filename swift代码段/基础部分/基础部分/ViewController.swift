@@ -25,6 +25,13 @@ class ViewController: UIViewController {
         let possibleNumber = "123"
         let convertedNumber:Int? = possibleNumber.toInt()
         println(convertedNumber)
+        println("=============隐式可选类型=========")
+        let possibleString:String? = "An optional string."
+        let forcedString:String = possibleString!
+        let assumedString:String! = "An implicitly unwrapped."
+        let implicitString:String = assumedString
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

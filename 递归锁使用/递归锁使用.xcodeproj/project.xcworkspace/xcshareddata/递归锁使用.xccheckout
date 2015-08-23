@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A2BCB23C-D598-4870-B97A-8D1754B57973</string>
+	<string>05A15CA7-9E62-42D6-ABCC-869B17B83E4A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>基础部分</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
 		<string>https://github.com/huang303513/disorderedSourceCode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>swift代码段/基础部分/基础部分.xcodeproj</string>
+	<string>递归锁使用/递归锁使用.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
-		<string>../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/huang303513/disorderedSourceCode.git</string>
