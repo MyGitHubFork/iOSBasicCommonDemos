@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>4C329D28-90B0-4B31-88CE-7AADD5F9C33D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>用runtime 解决UIButton 重复点击问题</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
 		<string>https://github.com/huang303513/disorderedSourceCode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>用runtime 解决UIButton 重复点击问题/用runtime 解决UIButton 重复点击问题.xcodeproj/project.xcworkspace</string>
+	<string>用runtime 解决UIButton 重复点击问题/用runtime 解决UIButton 重复点击问题.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>

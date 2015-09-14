@@ -10,27 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;/UIControl+HCDControlCategory.m"
-            timestampString = "463906620.498842"
+            timestampString = "463907912.859331"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "-setUxy_ignoreEvent:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;/UIControl+HCDControlCategory.m"
-            timestampString = "463907173.363292"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "-__uxy_sendAction:to:forEvent:"
             landmarkType = "5">
          </BreakpointContent>

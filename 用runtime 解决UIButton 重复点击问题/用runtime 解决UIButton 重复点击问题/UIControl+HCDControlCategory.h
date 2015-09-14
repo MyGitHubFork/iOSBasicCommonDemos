@@ -10,6 +10,5 @@
 
 @interface UIControl (HCDControlCategory)
 @property(nonatomic,assign)NSTimeInterval uxy_acceptEventInterval;// 可以用这个给重复点击加间隔
-//@property(nonatomic,assign)NSTimeInterval uxy_acceptedEventTime;
-@property(nonatomic,assign)BOOL uxy_ignoreEvent;
+@property (nonatomic) BOOL ignoreEvent;
 @end
