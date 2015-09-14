@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0640"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD538EEF1BA69844000D47F6"
+               BuildableName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.app"
+               BlueprintName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;"
+               ReferencedContainer = "container:&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD538F081BA69844000D47F6"
+               BuildableName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;Tests.xctest"
+               BlueprintName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;Tests"
+               ReferencedContainer = "container:&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD538F081BA69844000D47F6"
+               BuildableName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;Tests.xctest"
+               BlueprintName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;Tests"
+               ReferencedContainer = "container:&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD538EEF1BA69844000D47F6"
+            BuildableName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.app"
+            BlueprintName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;"
+            ReferencedContainer = "container:&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD538EEF1BA69844000D47F6"
+            BuildableName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.app"
+            BlueprintName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;"
+            ReferencedContainer = "container:&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DD538EEF1BA69844000D47F6"
+            BuildableName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.app"
+            BlueprintName = "&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;"
+            ReferencedContainer = "container:&#x7528;runtime &#x89e3;&#x51b3;UIButton &#x91cd;&#x590d;&#x70b9;&#x51fb;&#x95ee;&#x9898;.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

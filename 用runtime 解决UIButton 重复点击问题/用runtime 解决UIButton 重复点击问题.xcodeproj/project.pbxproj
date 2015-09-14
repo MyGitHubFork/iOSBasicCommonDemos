@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD538EF61BA69844000D47F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD538EF51BA69844000D47F6 /* main.m */; };
+		DD538EF91BA69844000D47F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD538EF81BA69844000D47F6 /* AppDelegate.m */; };
+		DD538EFC1BA69844000D47F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD538EFB1BA69844000D47F6 /* ViewController.m */; };
+		DD538EFF1BA69844000D47F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD538EFD1BA69844000D47F6 /* Main.storyboard */; };
+		DD538F011BA69844000D47F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD538F001BA69844000D47F6 /* Images.xcassets */; };
+		DD538F041BA69844000D47F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD538F021BA69844000D47F6 /* LaunchScreen.xib */; };
+		DD538F101BA69844000D47F6 /* _runtime___UIButton_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD538F0F1BA69844000D47F6 /* _runtime___UIButton_______Tests.m */; };
+		DD538F1B1BA698EE000D47F6 /* UIControl+HCDControlCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DD538F1A1BA698EE000D47F6 /* UIControl+HCDControlCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD538F0A1BA69844000D47F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD538EE81BA69844000D47F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD538EEF1BA69844000D47F6;
+			remoteInfo = "用runtime 解决UIButton 重复点击问题";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD538EF01BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "用runtime 解决UIButton 重复点击问题.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD538EF41BA69844000D47F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD538EF51BA69844000D47F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD538EF71BA69844000D47F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD538EF81BA69844000D47F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD538EFA1BA69844000D47F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD538EFB1BA69844000D47F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD538EFE1BA69844000D47F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD538F001BA69844000D47F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD538F031BA69844000D47F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD538F091BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "用runtime 解决UIButton 重复点击问题Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD538F0E1BA69844000D47F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD538F0F1BA69844000D47F6 /* _runtime___UIButton_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_runtime___UIButton_______Tests.m"; sourceTree = "<group>"; };
+		DD538F191BA698EE000D47F6 /* UIControl+HCDControlCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+HCDControlCategory.h"; sourceTree = "<group>"; };
+		DD538F1A1BA698EE000D47F6 /* UIControl+HCDControlCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+HCDControlCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD538EED1BA69844000D47F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD538F061BA69844000D47F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD538EE71BA69844000D47F6 = {
+			isa = PBXGroup;
+			children = (
+				DD538EF21BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题 */,
+				DD538F0C1BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题Tests */,
+				DD538EF11BA69844000D47F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD538EF11BA69844000D47F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD538EF01BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题.app */,
+				DD538F091BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD538EF21BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题 */ = {
+			isa = PBXGroup;
+			children = (
+				DD538EF71BA69844000D47F6 /* AppDelegate.h */,
+				DD538EF81BA69844000D47F6 /* AppDelegate.m */,
+				DD538EFA1BA69844000D47F6 /* ViewController.h */,
+				DD538EFB1BA69844000D47F6 /* ViewController.m */,
+				DD538EFD1BA69844000D47F6 /* Main.storyboard */,
+				DD538F001BA69844000D47F6 /* Images.xcassets */,
+				DD538F021BA69844000D47F6 /* LaunchScreen.xib */,
+				DD538EF31BA69844000D47F6 /* Supporting Files */,
+				DD538F191BA698EE000D47F6 /* UIControl+HCDControlCategory.h */,
+				DD538F1A1BA698EE000D47F6 /* UIControl+HCDControlCategory.m */,
+			);
+			path = "用runtime 解决UIButton 重复点击问题";
+			sourceTree = "<group>";
+		};
+		DD538EF31BA69844000D47F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD538EF41BA69844000D47F6 /* Info.plist */,
+				DD538EF51BA69844000D47F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD538F0C1BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD538F0F1BA69844000D47F6 /* _runtime___UIButton_______Tests.m */,
+				DD538F0D1BA69844000D47F6 /* Supporting Files */,
+			);
+			path = "用runtime 解决UIButton 重复点击问题Tests";
+			sourceTree = "<group>";
+		};
+		DD538F0D1BA69844000D47F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD538F0E1BA69844000D47F6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD538EEF1BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD538F131BA69844000D47F6 /* Build configuration list for PBXNativeTarget "用runtime 解决UIButton 重复点击问题" */;
+			buildPhases = (
+				DD538EEC1BA69844000D47F6 /* Sources */,
+				DD538EED1BA69844000D47F6 /* Frameworks */,
+				DD538EEE1BA69844000D47F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "用runtime 解决UIButton 重复点击问题";
+			productName = "用runtime 解决UIButton 重复点击问题";
+			productReference = DD538EF01BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD538F081BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD538F161BA69844000D47F6 /* Build configuration list for PBXNativeTarget "用runtime 解决UIButton 重复点击问题Tests" */;
+			buildPhases = (
+				DD538F051BA69844000D47F6 /* Sources */,
+				DD538F061BA69844000D47F6 /* Frameworks */,
+				DD538F071BA69844000D47F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD538F0B1BA69844000D47F6 /* PBXTargetDependency */,
+			);
+			name = "用runtime 解决UIButton 重复点击问题Tests";
+			productName = "用runtime 解决UIButton 重复点击问题Tests";
+			productReference = DD538F091BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD538EE81BA69844000D47F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					DD538EEF1BA69844000D47F6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DD538F081BA69844000D47F6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DD538EEF1BA69844000D47F6;
+					};
+				};
+			};
+			buildConfigurationList = DD538EEB1BA69844000D47F6 /* Build configuration list for PBXProject "用runtime 解决UIButton 重复点击问题" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD538EE71BA69844000D47F6;
+			productRefGroup = DD538EF11BA69844000D47F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD538EEF1BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题 */,
+				DD538F081BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD538EEE1BA69844000D47F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD538EFF1BA69844000D47F6 /* Main.storyboard in Resources */,
+				DD538F041BA69844000D47F6 /* LaunchScreen.xib in Resources */,
+				DD538F011BA69844000D47F6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD538F071BA69844000D47F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD538EEC1BA69844000D47F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD538EFC1BA69844000D47F6 /* ViewController.m in Sources */,
+				DD538F1B1BA698EE000D47F6 /* UIControl+HCDControlCategory.m in Sources */,
+				DD538EF91BA69844000D47F6 /* AppDelegate.m in Sources */,
+				DD538EF61BA69844000D47F6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD538F051BA69844000D47F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD538F101BA69844000D47F6 /* _runtime___UIButton_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD538F0B1BA69844000D47F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD538EEF1BA69844000D47F6 /* 用runtime 解决UIButton 重复点击问题 */;
+			targetProxy = DD538F0A1BA69844000D47F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD538EFD1BA69844000D47F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD538EFE1BA69844000D47F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD538F021BA69844000D47F6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD538F031BA69844000D47F6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD538F111BA69844000D47F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD538F121BA69844000D47F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD538F141BA69844000D47F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "用runtime 解决UIButton 重复点击问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD538F151BA69844000D47F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "用runtime 解决UIButton 重复点击问题/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD538F171BA69844000D47F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "用runtime 解决UIButton 重复点击问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/用runtime 解决UIButton 重复点击问题.app/用runtime 解决UIButton 重复点击问题";
+			};
+			name = Debug;
+		};
+		DD538F181BA69844000D47F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "用runtime 解决UIButton 重复点击问题Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/用runtime 解决UIButton 重复点击问题.app/用runtime 解决UIButton 重复点击问题";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD538EEB1BA69844000D47F6 /* Build configuration list for PBXProject "用runtime 解决UIButton 重复点击问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD538F111BA69844000D47F6 /* Debug */,
+				DD538F121BA69844000D47F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD538F131BA69844000D47F6 /* Build configuration list for PBXNativeTarget "用runtime 解决UIButton 重复点击问题" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD538F141BA69844000D47F6 /* Debug */,
+				DD538F151BA69844000D47F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD538F161BA69844000D47F6 /* Build configuration list for PBXNativeTarget "用runtime 解决UIButton 重复点击问题Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD538F171BA69844000D47F6 /* Debug */,
+				DD538F181BA69844000D47F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD538EE81BA69844000D47F6 /* Project object */;
+}
