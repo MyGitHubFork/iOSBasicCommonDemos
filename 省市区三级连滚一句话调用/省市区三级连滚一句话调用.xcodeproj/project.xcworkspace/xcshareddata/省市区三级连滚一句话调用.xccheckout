@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>EB69CAEC-84F0-4893-A265-BFE8932BDB48</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>省市区三级连滚一句话调用</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
 		<string>https://github.com/huang303513/disorderedSourceCode.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>省市区三级连滚一句话调用/省市区三级连滚一句话调用.xcodeproj/project.xcworkspace</string>
+	<string>省市区三级连滚一句话调用/省市区三级连滚一句话调用.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
