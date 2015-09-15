@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD2199D31BA7986D00BCB442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2199D21BA7986D00BCB442 /* main.m */; };
+		DD2199D61BA7986D00BCB442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2199D51BA7986D00BCB442 /* AppDelegate.m */; };
+		DD2199DE1BA7986D00BCB442 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD2199DD1BA7986D00BCB442 /* Images.xcassets */; };
+		DD2199E11BA7986D00BCB442 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2199DF1BA7986D00BCB442 /* LaunchScreen.xib */; };
+		DD2199ED1BA7986D00BCB442 /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2199EC1BA7986D00BCB442 /* ____________Tests.m */; };
+		DD2199F81BA798C700BCB442 /* MYAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2199F71BA798C700BCB442 /* MYAddressPickerView.m */; };
+		DD2199FA1BA799F900BCB442 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = DD2199F91BA799F900BCB442 /* city.json */; };
+		DD2199FE1BA79E5700BCB442 /* YADNewAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2199FC1BA79E5700BCB442 /* YADNewAddressViewController.m */; };
+		DD2199FF1BA79E5700BCB442 /* YADNewAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2199FD1BA79E5700BCB442 /* YADNewAddressViewController.xib */; };
+		DD219A2A1BA7A36F00BCB442 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD219A271BA7A36F00BCB442 /* close@3x.png */; };
+		DD219A2B1BA7A36F00BCB442 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD219A281BA7A36F00BCB442 /* close@2x.png */; };
+		DD219A2C1BA7A36F00BCB442 /* open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD219A291BA7A36F00BCB442 /* open@2x.png */; };
+		DD219A2E1BA7A38500BCB442 /* icon_go@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD219A2D1BA7A38500BCB442 /* icon_go@2x.png */; };
+		DD219A301BA7A38A00BCB442 /* icon_go@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD219A2F1BA7A38A00BCB442 /* icon_go@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD2199E71BA7986D00BCB442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2199C51BA7986D00BCB442 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2199CC1BA7986D00BCB442;
+			remoteInfo = "省市区三级连滚一句话调用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD2199CD1BA7986D00BCB442 /* 省市区三级连滚一句话调用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "省市区三级连滚一句话调用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2199D11BA7986D00BCB442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2199D21BA7986D00BCB442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD2199D41BA7986D00BCB442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD2199D51BA7986D00BCB442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD2199DD1BA7986D00BCB442 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD2199E01BA7986D00BCB442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DD2199E61BA7986D00BCB442 /* 省市区三级连滚一句话调用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "省市区三级连滚一句话调用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2199EB1BA7986D00BCB442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2199EC1BA7986D00BCB442 /* ____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________Tests.m"; sourceTree = "<group>"; };
+		DD2199F61BA798C700BCB442 /* MYAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAddressPickerView.h; sourceTree = "<group>"; };
+		DD2199F71BA798C700BCB442 /* MYAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAddressPickerView.m; sourceTree = "<group>"; };
+		DD2199F91BA799F900BCB442 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		DD2199FB1BA79E5700BCB442 /* YADNewAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YADNewAddressViewController.h; sourceTree = "<group>"; };
+		DD2199FC1BA79E5700BCB442 /* YADNewAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YADNewAddressViewController.m; sourceTree = "<group>"; };
+		DD2199FD1BA79E5700BCB442 /* YADNewAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YADNewAddressViewController.xib; sourceTree = "<group>"; };
+		DD219A271BA7A36F00BCB442 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		DD219A281BA7A36F00BCB442 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		DD219A291BA7A36F00BCB442 /* open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open@2x.png"; sourceTree = "<group>"; };
+		DD219A2D1BA7A38500BCB442 /* icon_go@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_go@2x.png"; sourceTree = "<group>"; };
+		DD219A2F1BA7A38A00BCB442 /* icon_go@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_go@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2199CA1BA7986D00BCB442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2199E31BA7986D00BCB442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD2199C41BA7986D00BCB442 = {
+			isa = PBXGroup;
+			children = (
+				DD2199CF1BA7986D00BCB442 /* 省市区三级连滚一句话调用 */,
+				DD2199E91BA7986D00BCB442 /* 省市区三级连滚一句话调用Tests */,
+				DD2199CE1BA7986D00BCB442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2199CE1BA7986D00BCB442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2199CD1BA7986D00BCB442 /* 省市区三级连滚一句话调用.app */,
+				DD2199E61BA7986D00BCB442 /* 省市区三级连滚一句话调用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2199CF1BA7986D00BCB442 /* 省市区三级连滚一句话调用 */ = {
+			isa = PBXGroup;
+			children = (
+				DD219A001BA79E5B00BCB442 /* 三级连滚 */,
+				DD2199FB1BA79E5700BCB442 /* YADNewAddressViewController.h */,
+				DD2199FC1BA79E5700BCB442 /* YADNewAddressViewController.m */,
+				DD2199FD1BA79E5700BCB442 /* YADNewAddressViewController.xib */,
+				DD2199D41BA7986D00BCB442 /* AppDelegate.h */,
+				DD2199D51BA7986D00BCB442 /* AppDelegate.m */,
+				DD2199DD1BA7986D00BCB442 /* Images.xcassets */,
+				DD2199DF1BA7986D00BCB442 /* LaunchScreen.xib */,
+				DD2199D01BA7986D00BCB442 /* Supporting Files */,
+			);
+			path = "省市区三级连滚一句话调用";
+			sourceTree = "<group>";
+		};
+		DD2199D01BA7986D00BCB442 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD219A2F1BA7A38A00BCB442 /* icon_go@3x.png */,
+				DD219A2D1BA7A38500BCB442 /* icon_go@2x.png */,
+				DD2199F91BA799F900BCB442 /* city.json */,
+				DD219A271BA7A36F00BCB442 /* close@3x.png */,
+				DD219A281BA7A36F00BCB442 /* close@2x.png */,
+				DD219A291BA7A36F00BCB442 /* open@2x.png */,
+				DD2199D11BA7986D00BCB442 /* Info.plist */,
+				DD2199D21BA7986D00BCB442 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD2199E91BA7986D00BCB442 /* 省市区三级连滚一句话调用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD2199EC1BA7986D00BCB442 /* ____________Tests.m */,
+				DD2199EA1BA7986D00BCB442 /* Supporting Files */,
+			);
+			path = "省市区三级连滚一句话调用Tests";
+			sourceTree = "<group>";
+		};
+		DD2199EA1BA7986D00BCB442 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD2199EB1BA7986D00BCB442 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD219A001BA79E5B00BCB442 /* 三级连滚 */ = {
+			isa = PBXGroup;
+			children = (
+				DD2199F61BA798C700BCB442 /* MYAddressPickerView.h */,
+				DD2199F71BA798C700BCB442 /* MYAddressPickerView.m */,
+			);
+			name = "三级连滚";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2199CC1BA7986D00BCB442 /* 省市区三级连滚一句话调用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2199F01BA7986D00BCB442 /* Build configuration list for PBXNativeTarget "省市区三级连滚一句话调用" */;
+			buildPhases = (
+				DD2199C91BA7986D00BCB442 /* Sources */,
+				DD2199CA1BA7986D00BCB442 /* Frameworks */,
+				DD2199CB1BA7986D00BCB442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "省市区三级连滚一句话调用";
+			productName = "省市区三级连滚一句话调用";
+			productReference = DD2199CD1BA7986D00BCB442 /* 省市区三级连滚一句话调用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD2199E51BA7986D00BCB442 /* 省市区三级连滚一句话调用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2199F31BA7986D00BCB442 /* Build configuration list for PBXNativeTarget "省市区三级连滚一句话调用Tests" */;
+			buildPhases = (
+				DD2199E21BA7986D00BCB442 /* Sources */,
+				DD2199E31BA7986D00BCB442 /* Frameworks */,
+				DD2199E41BA7986D00BCB442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2199E81BA7986D00BCB442 /* PBXTargetDependency */,
+			);
+			name = "省市区三级连滚一句话调用Tests";
+			productName = "省市区三级连滚一句话调用Tests";
+			productReference = DD2199E61BA7986D00BCB442 /* 省市区三级连滚一句话调用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2199C51BA7986D00BCB442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					DD2199CC1BA7986D00BCB442 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DD2199E51BA7986D00BCB442 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DD2199CC1BA7986D00BCB442;
+					};
+				};
+			};
+			buildConfigurationList = DD2199C81BA7986D00BCB442 /* Build configuration list for PBXProject "省市区三级连滚一句话调用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD2199C41BA7986D00BCB442;
+			productRefGroup = DD2199CE1BA7986D00BCB442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2199CC1BA7986D00BCB442 /* 省市区三级连滚一句话调用 */,
+				DD2199E51BA7986D00BCB442 /* 省市区三级连滚一句话调用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2199CB1BA7986D00BCB442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD219A2A1BA7A36F00BCB442 /* close@3x.png in Resources */,
+				DD219A301BA7A38A00BCB442 /* icon_go@3x.png in Resources */,
+				DD219A2E1BA7A38500BCB442 /* icon_go@2x.png in Resources */,
+				DD2199E11BA7986D00BCB442 /* LaunchScreen.xib in Resources */,
+				DD2199FA1BA799F900BCB442 /* city.json in Resources */,
+				DD219A2B1BA7A36F00BCB442 /* close@2x.png in Resources */,
+				DD2199DE1BA7986D00BCB442 /* Images.xcassets in Resources */,
+				DD2199FF1BA79E5700BCB442 /* YADNewAddressViewController.xib in Resources */,
+				DD219A2C1BA7A36F00BCB442 /* open@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2199E41BA7986D00BCB442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2199C91BA7986D00BCB442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2199F81BA798C700BCB442 /* MYAddressPickerView.m in Sources */,
+				DD2199FE1BA79E5700BCB442 /* YADNewAddressViewController.m in Sources */,
+				DD2199D61BA7986D00BCB442 /* AppDelegate.m in Sources */,
+				DD2199D31BA7986D00BCB442 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD2199E21BA7986D00BCB442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2199ED1BA7986D00BCB442 /* ____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2199E81BA7986D00BCB442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2199CC1BA7986D00BCB442 /* 省市区三级连滚一句话调用 */;
+			targetProxy = DD2199E71BA7986D00BCB442 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD2199DF1BA7986D00BCB442 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2199E01BA7986D00BCB442 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2199EE1BA7986D00BCB442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD2199EF1BA7986D00BCB442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2199F11BA7986D00BCB442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "省市区三级连滚一句话调用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD2199F21BA7986D00BCB442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "省市区三级连滚一句话调用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD2199F41BA7986D00BCB442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "省市区三级连滚一句话调用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/省市区三级连滚一句话调用.app/省市区三级连滚一句话调用";
+			};
+			name = Debug;
+		};
+		DD2199F51BA7986D00BCB442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "省市区三级连滚一句话调用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/省市区三级连滚一句话调用.app/省市区三级连滚一句话调用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2199C81BA7986D00BCB442 /* Build configuration list for PBXProject "省市区三级连滚一句话调用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2199EE1BA7986D00BCB442 /* Debug */,
+				DD2199EF1BA7986D00BCB442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2199F01BA7986D00BCB442 /* Build configuration list for PBXNativeTarget "省市区三级连滚一句话调用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2199F11BA7986D00BCB442 /* Debug */,
+				DD2199F21BA7986D00BCB442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD2199F31BA7986D00BCB442 /* Build configuration list for PBXNativeTarget "省市区三级连滚一句话调用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2199F41BA7986D00BCB442 /* Debug */,
+				DD2199F51BA7986D00BCB442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2199C51BA7986D00BCB442 /* Project object */;
+}
