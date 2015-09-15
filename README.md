@@ -6,7 +6,7 @@
 
 ![省市区三级连滚一句话调用](https://github.com/huang303513/iOS-Study-Demo/blob/master/screenshoot/%E7%9C%81%E5%B8%82%E5%8C%BA%E4%B8%89%E7%BA%A7%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%BB%9A.gif)
 
-用法：
+![省市区三级连滚一句话调用](https://github.com/huang303513/iOS-Study-Demo/tree/master/%E7%9C%81%E5%B8%82%E5%8C%BA%E4%B8%89%E7%BA%A7%E8%BF%9E%E6%BB%9A%E4%B8%80%E5%8F%A5%E8%AF%9D%E8%B0%83%E7%94%A8)用法：
 
 ```Objective-C
 //设置省市区拾取器
