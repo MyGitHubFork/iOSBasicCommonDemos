@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B6651233-4357-4255-8AB3-5DC2A66E2693</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AliSDKDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>68679739-BB18-406F-9C8D-926908911CB0</key>
+		<string>http://svnhz.alipay.net/svn/ios_iphone_cashier/branches/ali01072563_P_20131107_ios_iphone_cashier</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AliSDKDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>68679739-BB18-406F-9C8D-926908911CB0</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>68679739-BB18-406F-9C8D-926908911CB0</key>
+		<string>http://svnhz.alipay.net/svn/ios_iphone_cashier</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svnhz.alipay.net/svn/ios_iphone_cashier/branches/ali01072563_P_20131107_ios_iphone_cashier/AlipayGateway/AliSDKDemo/AliSDKDemo.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>68679739-BB18-406F-9C8D-926908911CB0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTagsRelativeLocationKey</key>
+			<string>tags</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>68679739-BB18-406F-9C8D-926908911CB0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>0924测试</string>
+		</dict>
+	</array>
+</dict>
+</plist>

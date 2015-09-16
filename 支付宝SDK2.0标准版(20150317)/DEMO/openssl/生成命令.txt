@@ -1,0 +1,9 @@
+RSA密钥生成命令
+生成RSA私钥
+openssl>genrsa -out rsa_private_key.pem 1024
+生成RSA公钥
+openssl>rsa -in rsa_private_key.pem -pubout -out rsa_public_key.pem
+将RSA私钥转换成PKCS8格式
+openssl>pkcs8 -topk8 -inform PEM -in rsa_private_key.pem -outform PEM -nocrypt
+
+注意：“>”符号后面的才是需要输入的命令。

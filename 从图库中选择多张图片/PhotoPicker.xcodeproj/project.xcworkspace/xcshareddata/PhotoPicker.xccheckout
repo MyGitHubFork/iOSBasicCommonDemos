@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3ACC21CA-5B75-45C5-BA25-2113DF7DE524</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PhotoPicker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8D3EF7B8757F298C765C67DFCADA834CAE0CF098</key>
+		<string>https://github.com/nsdictionary/CorePhotoPickerVCManager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PhotoPicker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8D3EF7B8757F298C765C67DFCADA834CAE0CF098</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nsdictionary/CorePhotoPickerVCManager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8D3EF7B8757F298C765C67DFCADA834CAE0CF098</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8D3EF7B8757F298C765C67DFCADA834CAE0CF098</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PhotoPicker</string>
+		</dict>
+	</array>
+</dict>
+</plist>

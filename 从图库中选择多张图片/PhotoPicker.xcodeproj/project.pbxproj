@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE597F721A9042E70037CF67 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = EE597F6F1A9042E70037CF67 /* 1.png */; };
+		EE597F741A9042E70037CF67 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = EE597F711A9042E70037CF67 /* 3.png */; };
+		EE597F8C1A90431C0037CF67 /* CorePhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F771A90431C0037CF67 /* CorePhoto.m */; };
+		EE597F8D1A90431C0037CF67 /* CorePhotoPickerVCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F791A90431C0037CF67 /* CorePhotoPickerVCManager.m */; };
+		EE597F8E1A90431C0037CF67 /* UIImage+UzysExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F7C1A90431C0037CF67 /* UIImage+UzysExtension.m */; };
+		EE597F8F1A90431C0037CF67 /* UzysAppearanceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F7E1A90431C0037CF67 /* UzysAppearanceConfig.m */; };
+		EE597F901A90431C0037CF67 /* UzysAssetPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE597F7F1A90431C0037CF67 /* UzysAssetPickerController.bundle */; };
+		EE597F911A90431C0037CF67 /* UzysAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F811A90431C0037CF67 /* UzysAssetsPickerController.m */; };
+		EE597F921A90431C0037CF67 /* UzysAssetsPickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE597F821A90431C0037CF67 /* UzysAssetsPickerController.xib */; };
+		EE597F931A90431C0037CF67 /* UzysAssetsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F851A90431C0037CF67 /* UzysAssetsViewCell.m */; };
+		EE597F941A90431C0037CF67 /* UzysGroupPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F871A90431C0037CF67 /* UzysGroupPickerView.m */; };
+		EE597F951A90431C0037CF67 /* UzysGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F891A90431C0037CF67 /* UzysGroupViewCell.m */; };
+		EE597F961A90431C0037CF67 /* UzysWrapperPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE597F8B1A90431C0037CF67 /* UzysWrapperPickerController.m */; };
+		EE597F981A90469A0037CF67 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = EE597F971A90469A0037CF67 /* 2.png */; };
+		EEC5119D1A8D96A40082C50E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5119C1A8D96A40082C50E /* main.m */; };
+		EEC511A01A8D96A40082C50E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC5119F1A8D96A40082C50E /* AppDelegate.m */; };
+		EEC511A31A8D96A40082C50E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC511A21A8D96A40082C50E /* ViewController.m */; };
+		EEC511A61A8D96A40082C50E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC511A41A8D96A40082C50E /* Main.storyboard */; };
+		EEC511A81A8D96A40082C50E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC511A71A8D96A40082C50E /* Images.xcassets */; };
+		EEC511AB1A8D96A40082C50E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC511A91A8D96A40082C50E /* LaunchScreen.xib */; };
+		EEC511B71A8D96A40082C50E /* PhotoPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC511B61A8D96A40082C50E /* PhotoPickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEC511B11A8D96A40082C50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC5118F1A8D96A40082C50E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC511961A8D96A40082C50E;
+			remoteInfo = PhotoPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE40B3D01AA576E50079A920 /* HMSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSingleton.h; sourceTree = "<group>"; };
+		EE597F6F1A9042E70037CF67 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		EE597F711A9042E70037CF67 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		EE597F761A90431C0037CF67 /* CorePhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePhoto.h; sourceTree = "<group>"; };
+		EE597F771A90431C0037CF67 /* CorePhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePhoto.m; sourceTree = "<group>"; };
+		EE597F781A90431C0037CF67 /* CorePhotoPickerVCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CorePhotoPickerVCManager.h; sourceTree = "<group>"; };
+		EE597F791A90431C0037CF67 /* CorePhotoPickerVCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CorePhotoPickerVCManager.m; sourceTree = "<group>"; };
+		EE597F7B1A90431C0037CF67 /* UIImage+UzysExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UzysExtension.h"; sourceTree = "<group>"; };
+		EE597F7C1A90431C0037CF67 /* UIImage+UzysExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UzysExtension.m"; sourceTree = "<group>"; };
+		EE597F7D1A90431C0037CF67 /* UzysAppearanceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAppearanceConfig.h; sourceTree = "<group>"; };
+		EE597F7E1A90431C0037CF67 /* UzysAppearanceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysAppearanceConfig.m; sourceTree = "<group>"; };
+		EE597F7F1A90431C0037CF67 /* UzysAssetPickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UzysAssetPickerController.bundle; sourceTree = "<group>"; };
+		EE597F801A90431C0037CF67 /* UzysAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAssetsPickerController.h; sourceTree = "<group>"; };
+		EE597F811A90431C0037CF67 /* UzysAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysAssetsPickerController.m; sourceTree = "<group>"; };
+		EE597F821A90431C0037CF67 /* UzysAssetsPickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UzysAssetsPickerController.xib; sourceTree = "<group>"; };
+		EE597F831A90431C0037CF67 /* UzysAssetsPickerController_Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAssetsPickerController_Configuration.h; sourceTree = "<group>"; };
+		EE597F841A90431C0037CF67 /* UzysAssetsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysAssetsViewCell.h; sourceTree = "<group>"; };
+		EE597F851A90431C0037CF67 /* UzysAssetsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysAssetsViewCell.m; sourceTree = "<group>"; };
+		EE597F861A90431C0037CF67 /* UzysGroupPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysGroupPickerView.h; sourceTree = "<group>"; };
+		EE597F871A90431C0037CF67 /* UzysGroupPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysGroupPickerView.m; sourceTree = "<group>"; };
+		EE597F881A90431C0037CF67 /* UzysGroupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysGroupViewCell.h; sourceTree = "<group>"; };
+		EE597F891A90431C0037CF67 /* UzysGroupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysGroupViewCell.m; sourceTree = "<group>"; };
+		EE597F8A1A90431C0037CF67 /* UzysWrapperPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzysWrapperPickerController.h; sourceTree = "<group>"; };
+		EE597F8B1A90431C0037CF67 /* UzysWrapperPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzysWrapperPickerController.m; sourceTree = "<group>"; };
+		EE597F971A90469A0037CF67 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		EEC511971A8D96A40082C50E /* PhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC5119B1A8D96A40082C50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC5119C1A8D96A40082C50E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEC5119E1A8D96A40082C50E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEC5119F1A8D96A40082C50E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEC511A11A8D96A40082C50E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEC511A21A8D96A40082C50E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEC511A51A8D96A40082C50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEC511A71A8D96A40082C50E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEC511AA1A8D96A40082C50E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEC511B01A8D96A40082C50E /* PhotoPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC511B51A8D96A40082C50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC511B61A8D96A40082C50E /* PhotoPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC511941A8D96A40082C50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC511AD1A8D96A40082C50E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE597F6E1A9042E70037CF67 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				EE597F971A90469A0037CF67 /* 2.png */,
+				EE597F6F1A9042E70037CF67 /* 1.png */,
+				EE597F711A9042E70037CF67 /* 3.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		EE597F751A90431C0037CF67 /* CorePhotoPickerVCManager */ = {
+			isa = PBXGroup;
+			children = (
+				EE40B3D01AA576E50079A920 /* HMSingleton.h */,
+				EE597F761A90431C0037CF67 /* CorePhoto.h */,
+				EE597F771A90431C0037CF67 /* CorePhoto.m */,
+				EE597F781A90431C0037CF67 /* CorePhotoPickerVCManager.h */,
+				EE597F791A90431C0037CF67 /* CorePhotoPickerVCManager.m */,
+				EE597F7A1A90431C0037CF67 /* Library */,
+			);
+			path = CorePhotoPickerVCManager;
+			sourceTree = "<group>";
+		};
+		EE597F7A1A90431C0037CF67 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EE597F7B1A90431C0037CF67 /* UIImage+UzysExtension.h */,
+				EE597F7C1A90431C0037CF67 /* UIImage+UzysExtension.m */,
+				EE597F7D1A90431C0037CF67 /* UzysAppearanceConfig.h */,
+				EE597F7E1A90431C0037CF67 /* UzysAppearanceConfig.m */,
+				EE597F7F1A90431C0037CF67 /* UzysAssetPickerController.bundle */,
+				EE597F801A90431C0037CF67 /* UzysAssetsPickerController.h */,
+				EE597F811A90431C0037CF67 /* UzysAssetsPickerController.m */,
+				EE597F821A90431C0037CF67 /* UzysAssetsPickerController.xib */,
+				EE597F831A90431C0037CF67 /* UzysAssetsPickerController_Configuration.h */,
+				EE597F841A90431C0037CF67 /* UzysAssetsViewCell.h */,
+				EE597F851A90431C0037CF67 /* UzysAssetsViewCell.m */,
+				EE597F861A90431C0037CF67 /* UzysGroupPickerView.h */,
+				EE597F871A90431C0037CF67 /* UzysGroupPickerView.m */,
+				EE597F881A90431C0037CF67 /* UzysGroupViewCell.h */,
+				EE597F891A90431C0037CF67 /* UzysGroupViewCell.m */,
+				EE597F8A1A90431C0037CF67 /* UzysWrapperPickerController.h */,
+				EE597F8B1A90431C0037CF67 /* UzysWrapperPickerController.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EEC5118E1A8D96A40082C50E = {
+			isa = PBXGroup;
+			children = (
+				EEC511991A8D96A40082C50E /* PhotoPicker */,
+				EEC511B31A8D96A40082C50E /* PhotoPickerTests */,
+				EEC511981A8D96A40082C50E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC511981A8D96A40082C50E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC511971A8D96A40082C50E /* PhotoPicker.app */,
+				EEC511B01A8D96A40082C50E /* PhotoPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC511991A8D96A40082C50E /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EE597F751A90431C0037CF67 /* CorePhotoPickerVCManager */,
+				EEC5119E1A8D96A40082C50E /* AppDelegate.h */,
+				EEC5119F1A8D96A40082C50E /* AppDelegate.m */,
+				EEC511A11A8D96A40082C50E /* ViewController.h */,
+				EEC511A21A8D96A40082C50E /* ViewController.m */,
+				EEC511A41A8D96A40082C50E /* Main.storyboard */,
+				EEC511A71A8D96A40082C50E /* Images.xcassets */,
+				EEC511A91A8D96A40082C50E /* LaunchScreen.xib */,
+				EEC5119A1A8D96A40082C50E /* Supporting Files */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		EEC5119A1A8D96A40082C50E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE597F6E1A9042E70037CF67 /* img */,
+				EEC5119B1A8D96A40082C50E /* Info.plist */,
+				EEC5119C1A8D96A40082C50E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEC511B31A8D96A40082C50E /* PhotoPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEC511B61A8D96A40082C50E /* PhotoPickerTests.m */,
+				EEC511B41A8D96A40082C50E /* Supporting Files */,
+			);
+			path = PhotoPickerTests;
+			sourceTree = "<group>";
+		};
+		EEC511B41A8D96A40082C50E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEC511B51A8D96A40082C50E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEC511961A8D96A40082C50E /* PhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC511BA1A8D96A40082C50E /* Build configuration list for PBXNativeTarget "PhotoPicker" */;
+			buildPhases = (
+				EEC511931A8D96A40082C50E /* Sources */,
+				EEC511941A8D96A40082C50E /* Frameworks */,
+				EEC511951A8D96A40082C50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoPicker;
+			productName = PhotoPicker;
+			productReference = EEC511971A8D96A40082C50E /* PhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEC511AF1A8D96A40082C50E /* PhotoPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC511BD1A8D96A40082C50E /* Build configuration list for PBXNativeTarget "PhotoPickerTests" */;
+			buildPhases = (
+				EEC511AC1A8D96A40082C50E /* Sources */,
+				EEC511AD1A8D96A40082C50E /* Frameworks */,
+				EEC511AE1A8D96A40082C50E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC511B21A8D96A40082C50E /* PBXTargetDependency */,
+			);
+			name = PhotoPickerTests;
+			productName = PhotoPickerTests;
+			productReference = EEC511B01A8D96A40082C50E /* PhotoPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC5118F1A8D96A40082C50E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = muxi;
+				TargetAttributes = {
+					EEC511961A8D96A40082C50E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EEC511AF1A8D96A40082C50E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EEC511961A8D96A40082C50E;
+					};
+				};
+			};
+			buildConfigurationList = EEC511921A8D96A40082C50E /* Build configuration list for PBXProject "PhotoPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC5118E1A8D96A40082C50E;
+			productRefGroup = EEC511981A8D96A40082C50E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC511961A8D96A40082C50E /* PhotoPicker */,
+				EEC511AF1A8D96A40082C50E /* PhotoPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC511951A8D96A40082C50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC511A61A8D96A40082C50E /* Main.storyboard in Resources */,
+				EEC511AB1A8D96A40082C50E /* LaunchScreen.xib in Resources */,
+				EE597F981A90469A0037CF67 /* 2.png in Resources */,
+				EE597F741A9042E70037CF67 /* 3.png in Resources */,
+				EE597F721A9042E70037CF67 /* 1.png in Resources */,
+				EEC511A81A8D96A40082C50E /* Images.xcassets in Resources */,
+				EE597F901A90431C0037CF67 /* UzysAssetPickerController.bundle in Resources */,
+				EE597F921A90431C0037CF67 /* UzysAssetsPickerController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC511AE1A8D96A40082C50E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC511931A8D96A40082C50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC511A31A8D96A40082C50E /* ViewController.m in Sources */,
+				EE597F931A90431C0037CF67 /* UzysAssetsViewCell.m in Sources */,
+				EE597F8C1A90431C0037CF67 /* CorePhoto.m in Sources */,
+				EEC511A01A8D96A40082C50E /* AppDelegate.m in Sources */,
+				EE597F8D1A90431C0037CF67 /* CorePhotoPickerVCManager.m in Sources */,
+				EE597F8E1A90431C0037CF67 /* UIImage+UzysExtension.m in Sources */,
+				EE597F961A90431C0037CF67 /* UzysWrapperPickerController.m in Sources */,
+				EEC5119D1A8D96A40082C50E /* main.m in Sources */,
+				EE597F941A90431C0037CF67 /* UzysGroupPickerView.m in Sources */,
+				EE597F8F1A90431C0037CF67 /* UzysAppearanceConfig.m in Sources */,
+				EE597F951A90431C0037CF67 /* UzysGroupViewCell.m in Sources */,
+				EE597F911A90431C0037CF67 /* UzysAssetsPickerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC511AC1A8D96A40082C50E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC511B71A8D96A40082C50E /* PhotoPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEC511B21A8D96A40082C50E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC511961A8D96A40082C50E /* PhotoPicker */;
+			targetProxy = EEC511B11A8D96A40082C50E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEC511A41A8D96A40082C50E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC511A51A8D96A40082C50E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEC511A91A8D96A40082C50E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEC511AA1A8D96A40082C50E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEC511B81A8D96A40082C50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEC511B91A8D96A40082C50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEC511BB1A8D96A40082C50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEC511BC1A8D96A40082C50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEC511BE1A8D96A40082C50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPicker.app/PhotoPicker";
+			};
+			name = Debug;
+		};
+		EEC511BF1A8D96A40082C50E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoPicker.app/PhotoPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC511921A8D96A40082C50E /* Build configuration list for PBXProject "PhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC511B81A8D96A40082C50E /* Debug */,
+				EEC511B91A8D96A40082C50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC511BA1A8D96A40082C50E /* Build configuration list for PBXNativeTarget "PhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC511BB1A8D96A40082C50E /* Debug */,
+				EEC511BC1A8D96A40082C50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC511BD1A8D96A40082C50E /* Build configuration list for PBXNativeTarget "PhotoPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC511BE1A8D96A40082C50E /* Debug */,
+				EEC511BF1A8D96A40082C50E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC5118F1A8D96A40082C50E /* Project object */;
+}

@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6A69A41B28144A00B03829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A69A31B28144A00B03829 /* main.m */; };
+		7B6A69A71B28144A00B03829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A69A61B28144A00B03829 /* AppDelegate.m */; };
+		7B6A69AA1B28144A00B03829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A69A91B28144A00B03829 /* ViewController.m */; };
+		7B6A69AD1B28144A00B03829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A69AB1B28144A00B03829 /* Main.storyboard */; };
+		7B6A69AF1B28144A00B03829 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A69AE1B28144A00B03829 /* Images.xcassets */; };
+		7B6A69B21B28144A00B03829 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B6A69B01B28144A00B03829 /* LaunchScreen.xib */; };
+		7B6A69BE1B28144A00B03829 /* strong_retain_copy_nsstring__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6A69BD1B28144A00B03829 /* strong_retain_copy_nsstring__Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6A69B81B28144A00B03829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6A69961B28144A00B03829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6A699D1B28144A00B03829;
+			remoteInfo = "strong retain copy nsstring区别";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B6A699E1B28144A00B03829 /* strong retain copy nsstring区别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "strong retain copy nsstring区别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6A69A21B28144A00B03829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6A69A31B28144A00B03829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B6A69A51B28144A00B03829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B6A69A61B28144A00B03829 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B6A69A81B28144A00B03829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B6A69A91B28144A00B03829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B6A69AC1B28144A00B03829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B6A69AE1B28144A00B03829 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B6A69B11B28144A00B03829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B6A69B71B28144A00B03829 /* strong retain copy nsstring区别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "strong retain copy nsstring区别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6A69BC1B28144A00B03829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6A69BD1B28144A00B03829 /* strong_retain_copy_nsstring__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = strong_retain_copy_nsstring__Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6A699B1B28144A00B03829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A69B41B28144A00B03829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6A69951B28144A00B03829 = {
+			isa = PBXGroup;
+			children = (
+				7B6A69A01B28144A00B03829 /* strong retain copy nsstring区别 */,
+				7B6A69BA1B28144A00B03829 /* strong retain copy nsstring区别Tests */,
+				7B6A699F1B28144A00B03829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6A699F1B28144A00B03829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A699E1B28144A00B03829 /* strong retain copy nsstring区别.app */,
+				7B6A69B71B28144A00B03829 /* strong retain copy nsstring区别Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6A69A01B28144A00B03829 /* strong retain copy nsstring区别 */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A69A51B28144A00B03829 /* AppDelegate.h */,
+				7B6A69A61B28144A00B03829 /* AppDelegate.m */,
+				7B6A69A81B28144A00B03829 /* ViewController.h */,
+				7B6A69A91B28144A00B03829 /* ViewController.m */,
+				7B6A69AB1B28144A00B03829 /* Main.storyboard */,
+				7B6A69AE1B28144A00B03829 /* Images.xcassets */,
+				7B6A69B01B28144A00B03829 /* LaunchScreen.xib */,
+				7B6A69A11B28144A00B03829 /* Supporting Files */,
+			);
+			path = "strong retain copy nsstring区别";
+			sourceTree = "<group>";
+		};
+		7B6A69A11B28144A00B03829 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A69A21B28144A00B03829 /* Info.plist */,
+				7B6A69A31B28144A00B03829 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B6A69BA1B28144A00B03829 /* strong retain copy nsstring区别Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A69BD1B28144A00B03829 /* strong_retain_copy_nsstring__Tests.m */,
+				7B6A69BB1B28144A00B03829 /* Supporting Files */,
+			);
+			path = "strong retain copy nsstring区别Tests";
+			sourceTree = "<group>";
+		};
+		7B6A69BB1B28144A00B03829 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6A69BC1B28144A00B03829 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B6A699D1B28144A00B03829 /* strong retain copy nsstring区别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6A69C11B28144A00B03829 /* Build configuration list for PBXNativeTarget "strong retain copy nsstring区别" */;
+			buildPhases = (
+				7B6A699A1B28144A00B03829 /* Sources */,
+				7B6A699B1B28144A00B03829 /* Frameworks */,
+				7B6A699C1B28144A00B03829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "strong retain copy nsstring区别";
+			productName = "strong retain copy nsstring区别";
+			productReference = 7B6A699E1B28144A00B03829 /* strong retain copy nsstring区别.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B6A69B61B28144A00B03829 /* strong retain copy nsstring区别Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6A69C41B28144A00B03829 /* Build configuration list for PBXNativeTarget "strong retain copy nsstring区别Tests" */;
+			buildPhases = (
+				7B6A69B31B28144A00B03829 /* Sources */,
+				7B6A69B41B28144A00B03829 /* Frameworks */,
+				7B6A69B51B28144A00B03829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6A69B91B28144A00B03829 /* PBXTargetDependency */,
+			);
+			name = "strong retain copy nsstring区别Tests";
+			productName = "strong retain copy nsstring区别Tests";
+			productReference = 7B6A69B71B28144A00B03829 /* strong retain copy nsstring区别Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6A69961B28144A00B03829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "黄成都";
+				TargetAttributes = {
+					7B6A699D1B28144A00B03829 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					7B6A69B61B28144A00B03829 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 7B6A699D1B28144A00B03829;
+					};
+				};
+			};
+			buildConfigurationList = 7B6A69991B28144A00B03829 /* Build configuration list for PBXProject "strong retain copy nsstring区别" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6A69951B28144A00B03829;
+			productRefGroup = 7B6A699F1B28144A00B03829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6A699D1B28144A00B03829 /* strong retain copy nsstring区别 */,
+				7B6A69B61B28144A00B03829 /* strong retain copy nsstring区别Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6A699C1B28144A00B03829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A69AD1B28144A00B03829 /* Main.storyboard in Resources */,
+				7B6A69B21B28144A00B03829 /* LaunchScreen.xib in Resources */,
+				7B6A69AF1B28144A00B03829 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A69B51B28144A00B03829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6A699A1B28144A00B03829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A69AA1B28144A00B03829 /* ViewController.m in Sources */,
+				7B6A69A71B28144A00B03829 /* AppDelegate.m in Sources */,
+				7B6A69A41B28144A00B03829 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A69B31B28144A00B03829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6A69BE1B28144A00B03829 /* strong_retain_copy_nsstring__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6A69B91B28144A00B03829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6A699D1B28144A00B03829 /* strong retain copy nsstring区别 */;
+			targetProxy = 7B6A69B81B28144A00B03829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B6A69AB1B28144A00B03829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6A69AC1B28144A00B03829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B6A69B01B28144A00B03829 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6A69B11B28144A00B03829 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6A69BF1B28144A00B03829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B6A69C01B28144A00B03829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6A69C21B28144A00B03829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "strong retain copy nsstring区别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B6A69C31B28144A00B03829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "strong retain copy nsstring区别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B6A69C51B28144A00B03829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "strong retain copy nsstring区别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strong retain copy nsstring区别.app/strong retain copy nsstring区别";
+			};
+			name = Debug;
+		};
+		7B6A69C61B28144A00B03829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "strong retain copy nsstring区别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/strong retain copy nsstring区别.app/strong retain copy nsstring区别";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6A69991B28144A00B03829 /* Build configuration list for PBXProject "strong retain copy nsstring区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6A69BF1B28144A00B03829 /* Debug */,
+				7B6A69C01B28144A00B03829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6A69C11B28144A00B03829 /* Build configuration list for PBXNativeTarget "strong retain copy nsstring区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6A69C21B28144A00B03829 /* Debug */,
+				7B6A69C31B28144A00B03829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B6A69C41B28144A00B03829 /* Build configuration list for PBXNativeTarget "strong retain copy nsstring区别Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6A69C51B28144A00B03829 /* Debug */,
+				7B6A69C61B28144A00B03829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6A69961B28144A00B03829 /* Project object */;
+}

@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F14129418C5ACCE008A9F0B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F14129318C5ACCE008A9F0B /* MediaPlayer.framework */; };
+		0F14129618C5AD58008A9F0B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F14129518C5AD58008A9F0B /* AudioToolbox.framework */; };
+		0F14129818C5AD64008A9F0B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F14129718C5AD64008A9F0B /* CoreAudio.framework */; };
+		0F14129A18C5AD75008A9F0B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F14129918C5AD75008A9F0B /* AVFoundation.framework */; };
+		0FAF164B165610AD00E568F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAF164A165610AD00E568F4 /* UIKit.framework */; };
+		0FAF164D165610AD00E568F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAF164C165610AD00E568F4 /* Foundation.framework */; };
+		0FAF164F165610AD00E568F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAF164E165610AD00E568F4 /* CoreGraphics.framework */; };
+		0FAF1655165610AD00E568F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF1653165610AD00E568F4 /* InfoPlist.strings */; };
+		0FAF1657165610AD00E568F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF1656165610AD00E568F4 /* main.m */; };
+		0FAF165B165610AD00E568F4 /* UPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF165A165610AD00E568F4 /* UPAppDelegate.m */; };
+		0FAF165D165610AD00E568F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF165C165610AD00E568F4 /* Default.png */; };
+		0FAF165F165610AD00E568F4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF165E165610AD00E568F4 /* Default@2x.png */; };
+		0FAF1661165610AD00E568F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF1660165610AD00E568F4 /* Default-568h@2x.png */; };
+		0FAF1664165610AD00E568F4 /* UPViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF1663165610AD00E568F4 /* UPViewController.mm */; };
+		0FAF16761656130100E568F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAF16751656130100E568F4 /* QuartzCore.framework */; };
+		0FD1D451178BFF5600051ED6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD1D450178BFF5600051ED6 /* Security.framework */; };
+		DD80F0C01B620BCE000F5029 /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD80F0BF1B620BCE000F5029 /* libUPPayPlugin.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F14129318C5ACCE008A9F0B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0F14129518C5AD58008A9F0B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0F14129718C5AD64008A9F0B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0F14129918C5AD75008A9F0B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0F8EA1B8169BCB1000A54507 /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPPayPluginDelegate.h; path = UPPayPlugin/UPPayPluginDelegate.h; sourceTree = "<group>"; };
+		0FAF1646165610AD00E568F4 /* UPPayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UPPayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAF164A165610AD00E568F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FAF164C165610AD00E568F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FAF164E165610AD00E568F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FAF1652165610AD00E568F4 /* UPPayDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UPPayDemo-Info.plist"; sourceTree = "<group>"; };
+		0FAF1654165610AD00E568F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FAF1656165610AD00E568F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FAF1658165610AD00E568F4 /* UPPayDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UPPayDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0FAF1659165610AD00E568F4 /* UPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPAppDelegate.h; sourceTree = "<group>"; };
+		0FAF165A165610AD00E568F4 /* UPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UPAppDelegate.m; sourceTree = "<group>"; };
+		0FAF165C165610AD00E568F4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0FAF165E165610AD00E568F4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0FAF1660165610AD00E568F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0FAF1662165610AD00E568F4 /* UPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UPViewController.h; sourceTree = "<group>"; };
+		0FAF1663165610AD00E568F4 /* UPViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = UPViewController.mm; sourceTree = "<group>"; };
+		0FAF16751656130100E568F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0FD1D450178BFF5600051ED6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0FD41FC317B0D9E60082692D /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UPPayPlugin.h; path = UPPayPlugin/UPPayPlugin.h; sourceTree = "<group>"; };
+		0FF3C3D21806D26F00A78CF8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DD80F0BF1B620BCE000F5029 /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FAF1643165610AD00E568F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F14129A18C5AD75008A9F0B /* AVFoundation.framework in Frameworks */,
+				0F14129818C5AD64008A9F0B /* CoreAudio.framework in Frameworks */,
+				0F14129618C5AD58008A9F0B /* AudioToolbox.framework in Frameworks */,
+				0F14129418C5ACCE008A9F0B /* MediaPlayer.framework in Frameworks */,
+				0FD1D451178BFF5600051ED6 /* Security.framework in Frameworks */,
+				0FAF16761656130100E568F4 /* QuartzCore.framework in Frameworks */,
+				DD80F0C01B620BCE000F5029 /* libUPPayPlugin.a in Frameworks */,
+				0FAF164B165610AD00E568F4 /* UIKit.framework in Frameworks */,
+				0FAF164D165610AD00E568F4 /* Foundation.framework in Frameworks */,
+				0FAF164F165610AD00E568F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FAF163B165610AD00E568F4 = {
+			isa = PBXGroup;
+			children = (
+				0FD1D450178BFF5600051ED6 /* Security.framework */,
+				0FAF1650165610AD00E568F4 /* UPPayDemo */,
+				0FAF1649165610AD00E568F4 /* Frameworks */,
+				0FAF1647165610AD00E568F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FAF1647165610AD00E568F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FAF1646165610AD00E568F4 /* UPPayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FAF1649165610AD00E568F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F14129918C5AD75008A9F0B /* AVFoundation.framework */,
+				0F14129718C5AD64008A9F0B /* CoreAudio.framework */,
+				0F14129518C5AD58008A9F0B /* AudioToolbox.framework */,
+				0F14129318C5ACCE008A9F0B /* MediaPlayer.framework */,
+				0FF3C3D21806D26F00A78CF8 /* AdSupport.framework */,
+				0FAF16751656130100E568F4 /* QuartzCore.framework */,
+				0FAF164A165610AD00E568F4 /* UIKit.framework */,
+				0FAF164C165610AD00E568F4 /* Foundation.framework */,
+				0FAF164E165610AD00E568F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FAF1650165610AD00E568F4 /* UPPayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0FAF1670165610B900E568F4 /* UPPayPlugin */,
+				0FAF1659165610AD00E568F4 /* UPAppDelegate.h */,
+				0FAF165A165610AD00E568F4 /* UPAppDelegate.m */,
+				0FAF1662165610AD00E568F4 /* UPViewController.h */,
+				0FAF1663165610AD00E568F4 /* UPViewController.mm */,
+				0FAF1651165610AD00E568F4 /* Supporting Files */,
+			);
+			path = UPPayDemo;
+			sourceTree = "<group>";
+		};
+		0FAF1651165610AD00E568F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FAF1652165610AD00E568F4 /* UPPayDemo-Info.plist */,
+				0FAF1653165610AD00E568F4 /* InfoPlist.strings */,
+				0FAF1656165610AD00E568F4 /* main.m */,
+				0FAF1658165610AD00E568F4 /* UPPayDemo-Prefix.pch */,
+				0FAF165C165610AD00E568F4 /* Default.png */,
+				0FAF165E165610AD00E568F4 /* Default@2x.png */,
+				0FAF1660165610AD00E568F4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0FAF1670165610B900E568F4 /* UPPayPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				DD80F0BF1B620BCE000F5029 /* libUPPayPlugin.a */,
+				0FD41FC317B0D9E60082692D /* UPPayPlugin.h */,
+				0F8EA1B8169BCB1000A54507 /* UPPayPluginDelegate.h */,
+			);
+			name = UPPayPlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FAF1645165610AD00E568F4 /* UPPayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FAF166D165610AD00E568F4 /* Build configuration list for PBXNativeTarget "UPPayDemo" */;
+			buildPhases = (
+				0FAF1642165610AD00E568F4 /* Sources */,
+				0FAF1643165610AD00E568F4 /* Frameworks */,
+				0FAF1644165610AD00E568F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPPayDemo;
+			productName = UPPayDemo;
+			productReference = 0FAF1646165610AD00E568F4 /* UPPayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FAF163D165610AD00E568F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = liwang;
+			};
+			buildConfigurationList = 0FAF1640165610AD00E568F4 /* Build configuration list for PBXProject "UPPayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FAF163B165610AD00E568F4;
+			productRefGroup = 0FAF1647165610AD00E568F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FAF1645165610AD00E568F4 /* UPPayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FAF1644165610AD00E568F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAF1655165610AD00E568F4 /* InfoPlist.strings in Resources */,
+				0FAF165D165610AD00E568F4 /* Default.png in Resources */,
+				0FAF165F165610AD00E568F4 /* Default@2x.png in Resources */,
+				0FAF1661165610AD00E568F4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FAF1642165610AD00E568F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAF1657165610AD00E568F4 /* main.m in Sources */,
+				0FAF165B165610AD00E568F4 /* UPAppDelegate.m in Sources */,
+				0FAF1664165610AD00E568F4 /* UPViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FAF1653165610AD00E568F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FAF1654165610AD00E568F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FAF166B165610AD00E568F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FAF166C165610AD00E568F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FAF166E165610AD00E568F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UPPayDemo/UPPayDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "UPPayDemo/UPPayDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/UPPayDemo/UPPayPlugin\"",
+					"$(PROJECT_DIR)/UPPayDemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FAF166F165610AD00E568F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UPPayDemo/UPPayDemo-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "UPPayDemo/UPPayDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/UPPayDemo/UPPayPlugin\"",
+					"$(PROJECT_DIR)/UPPayDemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FAF1640165610AD00E568F4 /* Build configuration list for PBXProject "UPPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAF166B165610AD00E568F4 /* Debug */,
+				0FAF166C165610AD00E568F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FAF166D165610AD00E568F4 /* Build configuration list for PBXNativeTarget "UPPayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAF166E165610AD00E568F4 /* Debug */,
+				0FAF166F165610AD00E568F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FAF163D165610AD00E568F4 /* Project object */;
+}

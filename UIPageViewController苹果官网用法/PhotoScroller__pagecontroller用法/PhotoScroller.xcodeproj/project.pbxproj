@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53897E101642F7F900FB20C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53897E0D1642F7F900FB20C4 /* Default-568h@2x.png */; };
+		53897E111642F7F900FB20C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 53897E0E1642F7F900FB20C4 /* Default.png */; };
+		53897E121642F7F900FB20C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 53897E0F1642F7F900FB20C4 /* Default@2x.png */; };
+		53EB7BB015B76E8B003193F9 /* CuriousFrog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53EB793E15B76E8A003193F9 /* CuriousFrog.jpg */; };
+		53EB7BB115B76E8B003193F9 /* LeggyFrog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53EB793F15B76E8A003193F9 /* LeggyFrog.jpg */; };
+		53EB7BB215B76E8B003193F9 /* PeeringFrog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53EB794015B76E8A003193F9 /* PeeringFrog.jpg */; };
+		53EB7E1D15B76E8B003193F9 /* CuriousFrog_Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EB7BAD15B76E8B003193F9 /* CuriousFrog_Placeholder.png */; };
+		53EB7E1E15B76E8B003193F9 /* LeggyFrog_Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EB7BAE15B76E8B003193F9 /* LeggyFrog_Placeholder.png */; };
+		53EB7E1F15B76E8B003193F9 /* PeeringFrog_Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 53EB7BAF15B76E8B003193F9 /* PeeringFrog_Placeholder.png */; };
+		53EB7E2615B76F10003193F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EB793A15B76E50003193F9 /* main.m */; };
+		53EB7E2815B76F33003193F9 /* ImageData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53EB7E2715B76F33003193F9 /* ImageData.plist */; };
+		53EB7E3C15B771F1003193F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EB7E3515B771D4003193F9 /* AppDelegate.m */; };
+		53EB7E3D15B771F3003193F9 /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EB7E3915B771D4003193F9 /* PhotoViewController.m */; };
+		53EB7E3E15B771F5003193F9 /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EB7E3715B771D4003193F9 /* ImageScrollView.m */; };
+		53EB7E3F15B771F8003193F9 /* TilingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EB7E3B15B771D4003193F9 /* TilingView.m */; };
+		53EB7E4715B7744D003193F9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53EB7E4515B7744D003193F9 /* MainStoryboard.storyboard */; };
+		C9CD3150157E63950099CB16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD314F157E63950099CB16 /* UIKit.framework */; };
+		C9CD3152157E63950099CB16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD3151157E63950099CB16 /* Foundation.framework */; };
+		C9CD3154157E63950099CB16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD3153157E63950099CB16 /* CoreGraphics.framework */; };
+		C9CD3174157E6D4F0099CB16 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD3173157E6D4F0099CB16 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28B8D5E015818A5B00386DDB /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		53897E0D1642F7F900FB20C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		53897E0E1642F7F900FB20C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		53897E0F1642F7F900FB20C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		53EB793215B76B07003193F9 /* PhotoScroller_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoScroller_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		53EB793315B76B07003193F9 /* PhotoScroller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoScroller-Info.plist"; sourceTree = SOURCE_ROOT; };
+		53EB793A15B76E50003193F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		53EB793E15B76E8A003193F9 /* CuriousFrog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CuriousFrog.jpg; sourceTree = "<group>"; };
+		53EB793F15B76E8A003193F9 /* LeggyFrog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LeggyFrog.jpg; sourceTree = "<group>"; };
+		53EB794015B76E8A003193F9 /* PeeringFrog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PeeringFrog.jpg; sourceTree = "<group>"; };
+		53EB7BAD15B76E8B003193F9 /* CuriousFrog_Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CuriousFrog_Placeholder.png; sourceTree = "<group>"; };
+		53EB7BAE15B76E8B003193F9 /* LeggyFrog_Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeggyFrog_Placeholder.png; sourceTree = "<group>"; };
+		53EB7BAF15B76E8B003193F9 /* PeeringFrog_Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PeeringFrog_Placeholder.png; sourceTree = "<group>"; };
+		53EB7E2715B76F33003193F9 /* ImageData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ImageData.plist; path = Resources/ImageData.plist; sourceTree = SOURCE_ROOT; };
+		53EB7E3415B771D4003193F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		53EB7E3515B771D4003193F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		53EB7E3615B771D4003193F9 /* ImageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImageScrollView.h; path = Classes/ImageScrollView.h; sourceTree = SOURCE_ROOT; };
+		53EB7E3715B771D4003193F9 /* ImageScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ImageScrollView.m; path = Classes/ImageScrollView.m; sourceTree = SOURCE_ROOT; };
+		53EB7E3815B771D4003193F9 /* PhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PhotoViewController.h; path = Classes/PhotoViewController.h; sourceTree = SOURCE_ROOT; };
+		53EB7E3915B771D4003193F9 /* PhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PhotoViewController.m; path = Classes/PhotoViewController.m; sourceTree = SOURCE_ROOT; };
+		53EB7E3A15B771D4003193F9 /* TilingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TilingView.h; path = Classes/TilingView.h; sourceTree = SOURCE_ROOT; };
+		53EB7E3B15B771D4003193F9 /* TilingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TilingView.m; path = Classes/TilingView.m; sourceTree = SOURCE_ROOT; };
+		53EB7E4615B7744D003193F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		C9CD314B157E63950099CB16 /* PhotoScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CD314F157E63950099CB16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9CD3151157E63950099CB16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9CD3153157E63950099CB16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9CD3173157E6D4F0099CB16 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CD3148157E63950099CB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CD3150157E63950099CB16 /* UIKit.framework in Frameworks */,
+				C9CD3152157E63950099CB16 /* Foundation.framework in Frameworks */,
+				C9CD3154157E63950099CB16 /* CoreGraphics.framework in Frameworks */,
+				C9CD3174157E6D4F0099CB16 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53EB793D15B76E8A003193F9 /* Full Images */ = {
+			isa = PBXGroup;
+			children = (
+				53EB793E15B76E8A003193F9 /* CuriousFrog.jpg */,
+				53EB793F15B76E8A003193F9 /* LeggyFrog.jpg */,
+				53EB794015B76E8A003193F9 /* PeeringFrog.jpg */,
+			);
+			name = "Full Images";
+			path = "Resources/Full Images";
+			sourceTree = SOURCE_ROOT;
+		};
+		53EB7BAC15B76E8B003193F9 /* Placeholder Images */ = {
+			isa = PBXGroup;
+			children = (
+				53EB7BAD15B76E8B003193F9 /* CuriousFrog_Placeholder.png */,
+				53EB7BAE15B76E8B003193F9 /* LeggyFrog_Placeholder.png */,
+				53EB7BAF15B76E8B003193F9 /* PeeringFrog_Placeholder.png */,
+			);
+			name = "Placeholder Images";
+			path = "Resources/Placeholder Images";
+			sourceTree = SOURCE_ROOT;
+		};
+		C9CD3140157E63950099CB16 = {
+			isa = PBXGroup;
+			children = (
+				28B8D5E015818A5B00386DDB /* ReadMe.txt */,
+				C9CD3155157E63950099CB16 /* PhotoScroller */,
+				C9CD314E157E63950099CB16 /* Frameworks */,
+				C9CD314C157E63950099CB16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CD314C157E63950099CB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD314B157E63950099CB16 /* PhotoScroll.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CD314E157E63950099CB16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD3173157E6D4F0099CB16 /* QuartzCore.framework */,
+				C9CD314F157E63950099CB16 /* UIKit.framework */,
+				C9CD3151157E63950099CB16 /* Foundation.framework */,
+				C9CD3153157E63950099CB16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CD3155157E63950099CB16 /* PhotoScroller */ = {
+			isa = PBXGroup;
+			children = (
+				53EB7E3415B771D4003193F9 /* AppDelegate.h */,
+				53EB7E3515B771D4003193F9 /* AppDelegate.m */,
+				53EB7E3815B771D4003193F9 /* PhotoViewController.h */,
+				53EB7E3915B771D4003193F9 /* PhotoViewController.m */,
+				53EB7E3615B771D4003193F9 /* ImageScrollView.h */,
+				53EB7E3715B771D4003193F9 /* ImageScrollView.m */,
+				53EB7E3A15B771D4003193F9 /* TilingView.h */,
+				53EB7E3B15B771D4003193F9 /* TilingView.m */,
+				C9CD3156157E63950099CB16 /* Supporting Files */,
+				53EB793D15B76E8A003193F9 /* Full Images */,
+				53EB7BAC15B76E8B003193F9 /* Placeholder Images */,
+			);
+			name = PhotoScroller;
+			path = FrogScroller;
+			sourceTree = "<group>";
+		};
+		C9CD3156157E63950099CB16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53EB793A15B76E50003193F9 /* main.m */,
+				53EB7E2715B76F33003193F9 /* ImageData.plist */,
+				53EB793215B76B07003193F9 /* PhotoScroller_Prefix.pch */,
+				53EB793315B76B07003193F9 /* PhotoScroller-Info.plist */,
+				53EB7E4515B7744D003193F9 /* MainStoryboard.storyboard */,
+				53897E0D1642F7F900FB20C4 /* Default-568h@2x.png */,
+				53897E0E1642F7F900FB20C4 /* Default.png */,
+				53897E0F1642F7F900FB20C4 /* Default@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CD314A157E63950099CB16 /* PhotoScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CD3169157E63950099CB16 /* Build configuration list for PBXNativeTarget "PhotoScroller" */;
+			buildPhases = (
+				C9CD3147157E63950099CB16 /* Sources */,
+				C9CD3148157E63950099CB16 /* Frameworks */,
+				C9CD3149157E63950099CB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoScroller;
+			productName = FrogScroller;
+			productReference = C9CD314B157E63950099CB16 /* PhotoScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CD3142157E63950099CB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FS;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Apple;
+			};
+			buildConfigurationList = C9CD3145157E63950099CB16 /* Build configuration list for PBXProject "PhotoScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9CD3140157E63950099CB16;
+			productRefGroup = C9CD314C157E63950099CB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CD314A157E63950099CB16 /* PhotoScroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9CD3149157E63950099CB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EB7E2815B76F33003193F9 /* ImageData.plist in Resources */,
+				53EB7BB015B76E8B003193F9 /* CuriousFrog.jpg in Resources */,
+				53EB7BB115B76E8B003193F9 /* LeggyFrog.jpg in Resources */,
+				53EB7BB215B76E8B003193F9 /* PeeringFrog.jpg in Resources */,
+				53EB7E1D15B76E8B003193F9 /* CuriousFrog_Placeholder.png in Resources */,
+				53EB7E1E15B76E8B003193F9 /* LeggyFrog_Placeholder.png in Resources */,
+				53EB7E1F15B76E8B003193F9 /* PeeringFrog_Placeholder.png in Resources */,
+				53EB7E4715B7744D003193F9 /* MainStoryboard.storyboard in Resources */,
+				53897E101642F7F900FB20C4 /* Default-568h@2x.png in Resources */,
+				53897E111642F7F900FB20C4 /* Default.png in Resources */,
+				53897E121642F7F900FB20C4 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CD3147157E63950099CB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EB7E2615B76F10003193F9 /* main.m in Sources */,
+				53EB7E3C15B771F1003193F9 /* AppDelegate.m in Sources */,
+				53EB7E3D15B771F3003193F9 /* PhotoViewController.m in Sources */,
+				53EB7E3E15B771F5003193F9 /* ImageScrollView.m in Sources */,
+				53EB7E3F15B771F8003193F9 /* TilingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53EB7E4515B7744D003193F9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EB7E4615B7744D003193F9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9CD3167157E63950099CB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9CD3168157E63950099CB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9CD316A157E63950099CB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotoScroller_Prefix.pch;
+				INFOPLIST_FILE = "PhotoScroller-Info.plist";
+				PRODUCT_NAME = PhotoScroll;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9CD316B157E63950099CB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PhotoScroller_Prefix.pch;
+				INFOPLIST_FILE = "PhotoScroller-Info.plist";
+				PRODUCT_NAME = PhotoScroll;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CD3145157E63950099CB16 /* Build configuration list for PBXProject "PhotoScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CD3167157E63950099CB16 /* Debug */,
+				C9CD3168157E63950099CB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CD3169157E63950099CB16 /* Build configuration list for PBXNativeTarget "PhotoScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CD316A157E63950099CB16 /* Debug */,
+				C9CD316B157E63950099CB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CD3142157E63950099CB16 /* Project object */;
+}
