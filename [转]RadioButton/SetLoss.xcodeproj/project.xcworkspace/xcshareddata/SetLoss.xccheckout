@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AE87279F-46AE-46D2-863A-3360B2C66DE1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SetLoss</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7ADD135B-C392-4BB8-A7C3-D971888CD1DB</key>
+		<string>file:///Volumes/WorkPlace%20HD/ProjectSVN/lib/SetLoss</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SetLoss.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7ADD135B-C392-4BB8-A7C3-D971888CD1DB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>7ADD135B-C392-4BB8-A7C3-D971888CD1DB</key>
+		<string>file:///Volumes/WorkPlace%20HD/ProjectSVN/lib</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>file:///Volumes/WorkPlace%20HD/ProjectSVN/lib/SetLoss/SetLoss.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7ADD135B-C392-4BB8-A7C3-D971888CD1DB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7ADD135B-C392-4BB8-A7C3-D971888CD1DB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SetLoss</string>
+		</dict>
+	</array>
+</dict>
+</plist>

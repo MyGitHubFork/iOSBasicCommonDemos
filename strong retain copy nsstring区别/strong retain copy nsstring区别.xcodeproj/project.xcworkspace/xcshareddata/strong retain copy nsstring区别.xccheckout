@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2E95307D-CB23-4684-AE4D-9AAFD6B7C41E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>strong retain copy nsstring区别</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</key>
-		<string>https://github.com/huang303513/Effective-Objective-C-2.0-Source-Code.git</string>
+		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
+		<string>https://github.com/huang303513/iOS-Study-Demo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>strong retain copy nsstring区别/strong retain copy nsstring区别.xcodeproj/project.xcworkspace</string>
+	<string>strong retain copy nsstring区别/strong retain copy nsstring区别.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</key>
+		<key>D38D50234B6E808ED66E056F104275915B8744DA</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/huang303513/Effective-Objective-C-2.0-Source-Code.git</string>
+	<string>https://github.com/huang303513/iOS-Study-Demo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</string>
+	<string>D38D50234B6E808ED66E056F104275915B8744DA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D359DED4D2FCE2F8D882B8D8A2507B2D8D26254A</string>
+			<string>D38D50234B6E808ED66E056F104275915B8744DA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Effective-Objective-C-2.0-Source-Code</string>
+			<string>iOS-Study-Demo</string>
 		</dict>
 	</array>
 </dict>
