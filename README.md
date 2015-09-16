@@ -8,6 +8,8 @@
 
 ##我会持续更新持续总结。。。欢迎大家关注、star、fork。。。。
 
+imageivew的contentmodel属性设置看下图我再也不迷糊了：
+![image](https://github.com/huang303513/iOS-Study-Demo/blob/master/UiimageView%E7%9A%84contentmodel%E5%9B%BE%E7%89%87%E6%BC%94%E7%A4%BA.jpg)
 
 //==================省市区三级连滚一句话调用====================
 
