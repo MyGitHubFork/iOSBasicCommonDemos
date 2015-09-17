@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  CoreTextDemo_mine
+//
+//  Created by yifan on 15/8/19.
+//  Copyright (c) 2015年 黄成都. All rights reserved.
+//
+
+#ifndef CoreTextDemo_mine_PrefixHeader_pch
+#define CoreTextDemo_mine_PrefixHeader_pch
+
+#ifdef DEBUG
+#define debugLog(...) NSLog(__VA_ARGS__)
+#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define debugLog(...)
+#define debugMethod()
+#endif
+
+#define RGB(A, B, C)    [UIColor colorWithRed:A/255.0 green:B/255.0 blue:C/255.0 alpha:1.0]
+#import "UIView+frameAdjust.h"
+#endif

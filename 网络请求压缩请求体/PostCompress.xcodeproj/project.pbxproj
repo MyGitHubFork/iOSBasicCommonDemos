@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA82E3F51502C7AA00EC09E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82E3F41502C7AA00EC09E3 /* UIKit.framework */; };
+		FA82E3F71502C7AA00EC09E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82E3F61502C7AA00EC09E3 /* Foundation.framework */; };
+		FA82E3F91502C7AA00EC09E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82E3F81502C7AA00EC09E3 /* CoreGraphics.framework */; };
+		FA82E3FF1502C7AA00EC09E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA82E3FD1502C7AA00EC09E3 /* InfoPlist.strings */; };
+		FA82E4011502C7AA00EC09E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82E4001502C7AA00EC09E3 /* main.m */; };
+		FA82E4051502C7AA00EC09E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82E4041502C7AA00EC09E3 /* AppDelegate.m */; };
+		FA82E4081502C7AA00EC09E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82E4071502C7AA00EC09E3 /* ViewController.m */; };
+		FA82E40B1502C7AA00EC09E3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA82E4091502C7AA00EC09E3 /* ViewController.xib */; };
+		FA82E4181502C89400EC09E3 /* CompressedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA82E4161502C89400EC09E3 /* CompressedRequest.m */; };
+		FA82E4191502C89400EC09E3 /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = FA82E4171502C89400EC09E3 /* data.xml */; };
+		FA82E47615039E5A00EC09E3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82E47515039E5A00EC09E3 /* libz.dylib */; };
+		FA82E4781503F8B000EC09E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA82E4771503F8B000EC09E3 /* QuartzCore.framework */; };
+		FABFD4D41504053500E6E8E5 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = FABFD4D31504053500E6E8E5 /* readme.txt */; };
+		FADC81DC16067A3200F7DCBD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FADC81DB16067A3200F7DCBD /* Icon.png */; };
+		FADC81DF16067A3700F7DCBD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FADC81DE16067A3700F7DCBD /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA82E3F01502C7AA00EC09E3 /* PostCompress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostCompress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA82E3F41502C7AA00EC09E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA82E3F61502C7AA00EC09E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA82E3F81502C7AA00EC09E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA82E3FC1502C7AA00EC09E3 /* PostCompress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PostCompress-Info.plist"; sourceTree = "<group>"; };
+		FA82E3FE1502C7AA00EC09E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA82E4001502C7AA00EC09E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA82E4021502C7AA00EC09E3 /* PostCompress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PostCompress-Prefix.pch"; sourceTree = "<group>"; };
+		FA82E4031502C7AA00EC09E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA82E4041502C7AA00EC09E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA82E4061502C7AA00EC09E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA82E4071502C7AA00EC09E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA82E40A1502C7AA00EC09E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FA82E4151502C89400EC09E3 /* CompressedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressedRequest.h; sourceTree = "<group>"; };
+		FA82E4161502C89400EC09E3 /* CompressedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompressedRequest.m; sourceTree = "<group>"; };
+		FA82E4171502C89400EC09E3 /* data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
+		FA82E47515039E5A00EC09E3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FA82E4771503F8B000EC09E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FABFD4D31504053500E6E8E5 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		FADC81DB16067A3200F7DCBD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FADC81DE16067A3700F7DCBD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA82E3ED1502C7AA00EC09E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA82E4781503F8B000EC09E3 /* QuartzCore.framework in Frameworks */,
+				FA82E47615039E5A00EC09E3 /* libz.dylib in Frameworks */,
+				FA82E3F51502C7AA00EC09E3 /* UIKit.framework in Frameworks */,
+				FA82E3F71502C7AA00EC09E3 /* Foundation.framework in Frameworks */,
+				FA82E3F91502C7AA00EC09E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA82E3E51502C7AA00EC09E3 = {
+			isa = PBXGroup;
+			children = (
+				FADC81DE16067A3700F7DCBD /* Icon@2x.png */,
+				FADC81DB16067A3200F7DCBD /* Icon.png */,
+				FABFD4D31504053500E6E8E5 /* readme.txt */,
+				FA82E3FA1502C7AA00EC09E3 /* PostCompress */,
+				FA82E3F31502C7AA00EC09E3 /* Frameworks */,
+				FA82E3F11502C7AA00EC09E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA82E3F11502C7AA00EC09E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA82E3F01502C7AA00EC09E3 /* PostCompress.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA82E3F31502C7AA00EC09E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA82E47515039E5A00EC09E3 /* libz.dylib */,
+				FA82E4771503F8B000EC09E3 /* QuartzCore.framework */,
+				FA82E3F41502C7AA00EC09E3 /* UIKit.framework */,
+				FA82E3F61502C7AA00EC09E3 /* Foundation.framework */,
+				FA82E3F81502C7AA00EC09E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA82E3FA1502C7AA00EC09E3 /* PostCompress */ = {
+			isa = PBXGroup;
+			children = (
+				FA82E4031502C7AA00EC09E3 /* AppDelegate.h */,
+				FA82E4041502C7AA00EC09E3 /* AppDelegate.m */,
+				FA82E4061502C7AA00EC09E3 /* ViewController.h */,
+				FA82E4071502C7AA00EC09E3 /* ViewController.m */,
+				FA82E4091502C7AA00EC09E3 /* ViewController.xib */,
+				FA82E4151502C89400EC09E3 /* CompressedRequest.h */,
+				FA82E4161502C89400EC09E3 /* CompressedRequest.m */,
+				FA82E4171502C89400EC09E3 /* data.xml */,
+				FA82E3FB1502C7AA00EC09E3 /* Supporting Files */,
+			);
+			path = PostCompress;
+			sourceTree = "<group>";
+		};
+		FA82E3FB1502C7AA00EC09E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA82E3FC1502C7AA00EC09E3 /* PostCompress-Info.plist */,
+				FA82E3FD1502C7AA00EC09E3 /* InfoPlist.strings */,
+				FA82E4001502C7AA00EC09E3 /* main.m */,
+				FA82E4021502C7AA00EC09E3 /* PostCompress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA82E3EF1502C7AA00EC09E3 /* PostCompress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA82E40E1502C7AA00EC09E3 /* Build configuration list for PBXNativeTarget "PostCompress" */;
+			buildPhases = (
+				FA82E3EC1502C7AA00EC09E3 /* Sources */,
+				FA82E3ED1502C7AA00EC09E3 /* Frameworks */,
+				FA82E3EE1502C7AA00EC09E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostCompress;
+			productName = PostCompress;
+			productReference = FA82E3F01502C7AA00EC09E3 /* PostCompress.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA82E3E71502C7AA00EC09E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FA82E3EA1502C7AA00EC09E3 /* Build configuration list for PBXProject "PostCompress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA82E3E51502C7AA00EC09E3;
+			productRefGroup = FA82E3F11502C7AA00EC09E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA82E3EF1502C7AA00EC09E3 /* PostCompress */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA82E3EE1502C7AA00EC09E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA82E3FF1502C7AA00EC09E3 /* InfoPlist.strings in Resources */,
+				FA82E40B1502C7AA00EC09E3 /* ViewController.xib in Resources */,
+				FA82E4191502C89400EC09E3 /* data.xml in Resources */,
+				FABFD4D41504053500E6E8E5 /* readme.txt in Resources */,
+				FADC81DC16067A3200F7DCBD /* Icon.png in Resources */,
+				FADC81DF16067A3700F7DCBD /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA82E3EC1502C7AA00EC09E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA82E4011502C7AA00EC09E3 /* main.m in Sources */,
+				FA82E4051502C7AA00EC09E3 /* AppDelegate.m in Sources */,
+				FA82E4081502C7AA00EC09E3 /* ViewController.m in Sources */,
+				FA82E4181502C89400EC09E3 /* CompressedRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA82E3FD1502C7AA00EC09E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA82E3FE1502C7AA00EC09E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA82E4091502C7AA00EC09E3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA82E40A1502C7AA00EC09E3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA82E40C1502C7AA00EC09E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA82E40D1502C7AA00EC09E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA82E40F1502C7AA00EC09E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostCompress/PostCompress-Prefix.pch";
+				INFOPLIST_FILE = "PostCompress/PostCompress-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PostCompress\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA82E4101502C7AA00EC09E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PostCompress/PostCompress-Prefix.pch";
+				INFOPLIST_FILE = "PostCompress/PostCompress-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/PostCompress\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA82E3EA1502C7AA00EC09E3 /* Build configuration list for PBXProject "PostCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA82E40C1502C7AA00EC09E3 /* Debug */,
+				FA82E40D1502C7AA00EC09E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA82E40E1502C7AA00EC09E3 /* Build configuration list for PBXNativeTarget "PostCompress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA82E40F1502C7AA00EC09E3 /* Debug */,
+				FA82E4101502C7AA00EC09E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA82E3E71502C7AA00EC09E3 /* Project object */;
+}
