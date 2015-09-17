@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* ZLibDemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2244, 1456}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 647}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ZLibDemo */ = {
+		activeExec = 0;
+		executables = (
+			882E191212E42F8300EDEF65 /* ZLibDemo */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ZLibDemoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 404}}";
+			sepNavSelRange = "{377, 0}";
+			sepNavVisRange = "{0, 384}";
+			sepNavWindowFrame = "{{15, 65}, {750, 708}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ZLibDemoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 832}}";
+			sepNavSelRange = "{611, 0}";
+			sepNavVisRange = "{257, 859}";
+			sepNavWindowFrame = "{{15, 65}, {750, 708}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 882E191212E42F8300EDEF65 /* ZLibDemo */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ZLibDemo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ZLibDemo */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 882E192412E42FB100EDEF65 /* Code sense */;
+		executables = (
+			882E191212E42F8300EDEF65 /* ZLibDemo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					833,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317008453;
+			PBXWorkspaceStateSaveDate = 317008453;
+		};
+		perUserProjectItems = {
+			882E19BE12E443F600EDEF65 = 882E19BE12E443F600EDEF65 /* PBXTextBookmark */;
+			882E19C112E443F600EDEF65 = 882E19C112E443F600EDEF65 /* PBXTextBookmark */;
+			882E19ED12E44B9E00EDEF65 = 882E19ED12E44B9E00EDEF65 /* PBXTextBookmark */;
+			882E19EE12E44B9E00EDEF65 = 882E19EE12E44B9E00EDEF65 /* PBXTextBookmark */;
+			88B9976312E49AE7008F7265 = 88B9976312E49AE7008F7265 /* PBXTextBookmark */;
+			88B9976412E49AE7008F7265 = 88B9976412E49AE7008F7265 /* PBXTextBookmark */;
+			88B9976512E49AE7008F7265 = 88B9976512E49AE7008F7265 /* PBXBookmark */;
+			88B9976612E49AE7008F7265 = 88B9976612E49AE7008F7265 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 882E192312E42FB100EDEF65 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	882E191212E42F8300EDEF65 /* ZLibDemo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ZLibDemo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	882E192312E42FB100EDEF65 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	882E192412E42FB100EDEF65 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	882E19A412E4431700EDEF65 /* crypt.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 2128}}";
+			sepNavSelRange = "{458, 0}";
+			sepNavVisRange = "{0, 1094}";
+		};
+	};
+	882E19AD12E4431700EDEF65 /* ZipArchive.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 784}}";
+			sepNavSelRange = "{627, 0}";
+			sepNavVisRange = "{511, 600}";
+		};
+	};
+	882E19AE12E4431700EDEF65 /* ZipArchive.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1011, 5616}}";
+			sepNavSelRange = "{2168, 0}";
+			sepNavVisRange = "{1992, 655}";
+		};
+	};
+	882E19BE12E443F600EDEF65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 882E19BF12E443F600EDEF65 /* zlib.h */;
+		name = "zlib.h: 212";
+		rLen = 53;
+		rLoc = 8861;
+		rType = 0;
+		vrLen = 1180;
+		vrLoc = 0;
+	};
+	882E19BF12E443F600EDEF65 /* zlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = zlib.h;
+		path = /Developer/xcode3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/zlib.h;
+		sourceTree = "<absolute>";
+	};
+	882E19C112E443F600EDEF65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 882E19A412E4431700EDEF65 /* crypt.h */;
+		name = "crypt.h: 13";
+		rLen = 0;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 1094;
+		vrLoc = 0;
+	};
+	882E19ED12E44B9E00EDEF65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ZLibDemoAppDelegate.m */;
+		name = "ZLibDemoAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 647;
+		vrLoc = 0;
+	};
+	882E19EE12E44B9E00EDEF65 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ZLibDemoViewController.h */;
+		name = "ZLibDemoViewController.h: 16";
+		rLen = 0;
+		rLoc = 377;
+		rType = 0;
+		vrLen = 384;
+		vrLoc = 0;
+	};
+	88B9976312E49AE7008F7265 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ZLibDemoViewController.m */;
+		name = "ZLibDemoViewController.m: 23";
+		rLen = 0;
+		rLoc = 611;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 257;
+	};
+	88B9976412E49AE7008F7265 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 882E19AE12E4431700EDEF65 /* ZipArchive.mm */;
+		name = "ZipArchive.mm: 98";
+		rLen = 0;
+		rLoc = 2168;
+		rType = 0;
+		vrLen = 655;
+		vrLoc = 1992;
+	};
+	88B9976512E49AE7008F7265 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 882E19AD12E4431700EDEF65 /* ZipArchive.h */;
+	};
+	88B9976612E49AE7008F7265 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 882E19AD12E4431700EDEF65 /* ZipArchive.h */;
+		name = "ZipArchive.h: 33";
+		rLen = 0;
+		rLoc = 627;
+		rType = 0;
+		vrLen = 679;
+		vrLoc = 427;
+	};
+}
