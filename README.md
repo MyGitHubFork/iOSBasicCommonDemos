@@ -1,4 +1,4 @@
-#这个仓库的目标就是要学iOS，你看我就够了，提供入门级别的、实用的各种资料。如果你觉得好、请多多宣传。我也会持续更新我的学习demo。此仓库对中低级iOSer有一定参考意义，大神请自行忽略。
+#这个仓库提供入门级别的、实用的各种资料。如果你觉得好、请多多宣传。我也会持续更新我的学习demo。此仓库对中低级iOSer有一定参考意义，大神请自行忽略。
 
 ##这个仓库里面的一般都是实用性的，如果要学习一些进阶的(汗颜，吹牛逼了、其实高级的东西我也正在学习中)，可以看其他各位大神的或者我的少数两个。
 
@@ -7,6 +7,8 @@
 ##带`转`字的都是别人下的、我只是下载觉得好，如果不适，请联系我。其他的基本上都是我iOS生涯各个时期的学习Demo，基本都是我自己敲的或者学的，希望能对你有所帮助。其中有一些随着时间的流逝丢了，可惜。
 
 ##我会持续更新持续总结。。。欢迎大家关注、star、fork。。。。
+#放在一个仓库太大、以后更新都放第二期仓库了。地址如下：
+[https://github.com/huang303513/The-Demo-Of-Common-Study](https://github.com/huang303513/The-Demo-Of-Common-Study)
 
 imageivew的contentmodel属性设置看下图我再也不迷糊了：
 ![image](https://github.com/huang303513/iOS-Study-Demo/blob/master/UiimageView%E7%9A%84contentmodel%E5%9B%BE%E7%89%87%E6%BC%94%E7%A4%BA.jpg)
