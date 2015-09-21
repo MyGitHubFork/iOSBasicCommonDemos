@@ -51,6 +51,7 @@
   
   CGFloat randomHeight = 100 + (arc4random() % 140);
   return CGSizeMake(100, randomHeight); // 100 to 240 pixels tall
+    //return CGSizeMake(100, 100);
 }
 
 // this will be called if our layout is MKMasonryViewLayout
@@ -59,7 +60,7 @@
   heightForItemAtIndexPath:(NSIndexPath*) indexPath {
   
   // we will use a random height from 100 - 400
-  
+    //return 100;
   CGFloat randomHeight = 100 + (arc4random() % 140);
   return randomHeight;
 }
