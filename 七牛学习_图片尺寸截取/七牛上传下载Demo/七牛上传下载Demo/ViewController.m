@@ -21,7 +21,8 @@
     
     QNUploadManager *upManager = [[QNUploadManager alloc] init];
     // Your Token Here, See: http://developer.qiniu.com/docs/v6/api/reference/security/upload-token.html
-    NSString *token = @"yPwTOJsk52Ggl3eG_cHngHfd-8Stou1We7zs9DPn:p00_MfLCK1bn2pFbdBpoGyzOeeU=:eyJzY29wZSI6ImFwcGltYWdlcyIsImRlYWRsaW5lIjozMjA1OTU4MTE0fQ==";
+    //这里填入你自己的七牛token
+    NSString *token = @"yPwTOJsk52Ggl3eG_cHdfasfasdfasdfasDPn:p00_MfLCK1bn2pFbdBpoGyzOeasdfasdSI6ImFwcGltYWdlcyIsImRlYWRsaW5lIjozMjA1OTU4MTE0fQ==";
     
     // Load Local Image
     NSString *filePath = [[NSBundle mainBundle] pathForResource:@"pixar" ofType:@"jpeg"];
@@ -42,7 +43,7 @@
 //                option:nil];
 
     
-    NSString *urlStr=[NSString stringWithFormat:@"http://7xidnq.com1.z0.glb.clouddn.com/%@",@"2015-04-02_14:44:11_k9oMTJbU.jpg"];
+    NSString *urlStr=[NSString stringWithFormat:@"http://7xidnq.com1.z0.gasdfasdfaddn.com/%@",@"2015-04-02_14:44:11_k9oMTJbU.jpg"];
     //注意对于url中的中文是无法解析的，需要进行url编码(指定编码类型位utf-8)
     //另外注意url解码使用stringByRemovingPercentEncoding方法
     urlStr=[urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
