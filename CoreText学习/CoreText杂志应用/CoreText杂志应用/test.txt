@@ -1,0 +1,16 @@
+The <font color="blue">NSRegularExpression<font color="black"> class is used to represent and apply regular expressions to Unicode strings. An instance of this class is an immutable representation of a compiled regular expression pattern and various option flags. The pattern syntax currently supported is that specified by ICU.
+
+The fundamental matching method for NSRegularExpression is a Block iterator method that allows clients to supply a Block object which will be invoked each time the regular expression matches a portion of the target string. There are additional convenience methods for returning all the matches as an array, the total number of matches, the first match, and the range of the first match.
+
+An individual match is represented by an instance of the NSTextCheckingResult class, which carries information about the overall matched range (via its range property), and the range of each individual capture group (via the rangeAtIndex: method). For basic NSRegularExpression objects, these match results will be of type NSTextCheckingTypeRegularExpression, but subclasses may use other types.
+
+<font color="red">Examples Using NSRegularExpression<font color="black">
+What follows are a set of graduated examples for using the NSRegularExpression class. All these examples use the regular expression \\b(a|b)(c|d)\\b as their regular expression.
+
+This snippet creates a regular expression to match two-letter words, in which the first letter is “a” or “b” and the second letter is “c” or “d”. Specifying NSRegularExpressionCaseInsensitive means that matches will be case-insensitive, so this will match “BC”, “aD”, and so forth, as well as their lower-case equivalents.
+
+If you are interested only in the overall range of the first match, the rangeOfFirstMatchInString:options:range: method provides it for you. Some regular expressions (though not the example pattern) can successfully match a zero-length range, so the comparison of the resulting range with {NSNotFound, 0} is the most reliable way to determine whether there was a match or not.
+
+The example regular expression contains two capture groups, corresponding to the two sets of parentheses, one for the first letter, and one for the second. If you are interested in more than just the overall matched range, you want to obtain an NSTextCheckingResult object corresponding to a given match. This object provides information about the overall matched range, via its range property, and also supplies the capture group ranges, via the rangeAtIndex: method. The first capture group range is given by [result rangeAtIndex:1], the second by [result rangeAtIndex:2]. Sending a result the rangeAtIndex: message and passing 0 is equivalent to [result range].
+
+If the result returned is non-nil, then [result range] will always be a valid range, so it is not necessary to compare it against {NSNotFound, 0}. However, for some regular expressions (though not the example pattern) some capture groups may or may not participate in a given match. If a given capture group does not participate in a given match, then [result rangeAtIndex:idx] will return {NSNotFound, 0}.

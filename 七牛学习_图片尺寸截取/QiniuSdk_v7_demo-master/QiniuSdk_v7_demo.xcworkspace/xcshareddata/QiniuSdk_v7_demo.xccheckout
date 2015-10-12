@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E32F75F3-B07F-46CE-8394-2B3417365F74</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QiniuSdk_v7_demo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A3005880D892D9C6139E1D7D9415808FF58A9480</key>
+		<string>github.com:summerblue/QiniuSdk_v7_demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QiniuSdk_v7_demo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A3005880D892D9C6139E1D7D9415808FF58A9480</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:summerblue/QiniuSdk_v7_demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A3005880D892D9C6139E1D7D9415808FF58A9480</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A3005880D892D9C6139E1D7D9415808FF58A9480</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QiniuSdk_v7_demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

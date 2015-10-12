@@ -1,0 +1,21 @@
+<img src="zombie1.jpg" width="320" height="882">
+
+
+
+<font color="red" strokeColor="orange" face="Zapfino">Letter from the editor
+<font color="black" strokeColor="gray" face="Palatino">
+One of the most famous zombie-themed television appearances was 1983's Thriller, a Michael Jackson short film and music video, directed by John Landis. It featured a rap by Vincent Price, star of the aforementioned The Last Man on Earth and "a famous voice, in the horror genre". One of the most popular music videos of all time, it is a horror film parody featuring choreographed zombies performing with Jackson. Many pop culture media have paid tribute to this scene alone, including zombie films such as Return of the Living Dead 2, cementing Thriller's place in zombie history.
+Fantasy-themed shows such as Buffy the Vampire Slayer and The X-Files sometimes include zombies as part of their horror/fantasy settings. Romero-styled zombie outbreaks are often featured in animated shows, such as in the Halloween episodes of The Simpsons, South Park, and Invader Zim. In the far east, zombies also often appear in anime, such as Samurai Champloo, Tokyo Majin Gakuen Kenpucho, Highschool of the Dead, YuYu Hakusho, Zombie-Loan and many others both within and beyond the horror genre.
+
+<font color="red" strokeColor="none" face="American Typewriter">The night of the living dead
+<font color="black" strokeColor="blue" face="Palatino">
+Night of the Living Dead is a 1968 American independent black-and-white zombie film and cult film directed by George A. Romero. It premiered on October 1, 1968, and was completed on a USD$114,000 budget. After decades of cinematic re-releases, it grossed $12 million domestically and $18 million internationally. Night of the Living Dead was heavily criticized during its release because of its explicit content. However, it eventually received critical acclaim and was selected by the Library of Congress for preservation in the National Film Registry as a film deemed "culturally, historically or aesthetically significant."
+
+<img src="zombie2.jpg" width="320" height="240">
+
+<font color="black" strokeColor="none" face="Arial">Reviewers disliked the film's gory special effects. Variety labeled Night of the Living Dead an "unrelieved orgy of sadism" and questioned the "integrity and social responsibility of its Pittsburgh-based makers".[64] New York Times critic Vincent Canby referred to the film as a "junk movie" as well as "spare, uncluttered, but really silly."
+Nevertheless, some reviewers cited the film as groundbreaking. Pauline Kael called the film "one of the most gruesomely terrifying movies ever made — and when you leave the theatre you may wish you could forget the whole horrible experience. . . . The film's grainy, banal seriousness works for it — gives it a crude realism".[66] A Film Daily critic commented, "This is a pearl of a horror picture which exhibits all the earmarks of a sleeper." While Roger Ebert criticized the matinée screening, he admitted that he "admires the movie itself". Critic Rex Reed wrote, "If you want to see what turns a B movie into a classic [...] don't miss Night of the Living Dead. It is unthinkable for anyone seriously interested in horror movies not to see it."
+
+<img src="zombie3.jpg" width="320" height="257">
+
+Romero revolutionized the horror film genre with Night of the Living Dead; per Almar Haflidason, of the BBC, the film represented "a new dawn in horror film-making". The film has also effectively redefined the use of the term "zombie". While the word "zombie" itself is never used, Romero's film introduced the theme of zombies as reanimated, flesh-eating cannibals. Early zombie films like Victor Halperin's White Zombie (1932) and Jacques Tourneur's I Walked with a Zombie (1943) concerned living people enslaved by a Voodoo witch doctor; many were set in the Caribbean.

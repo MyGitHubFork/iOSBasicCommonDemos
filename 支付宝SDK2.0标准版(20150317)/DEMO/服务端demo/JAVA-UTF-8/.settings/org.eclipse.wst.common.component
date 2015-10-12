@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="create_direct_pay_by_user-JAVA-UTF-8">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="create_direct_pay_by_user-JAVA-UTF-8"/>
+        <property name="java-output-path" value="/create_direct_pay_by_user-JAVA-UTF-8/build/classes"/>
+    </wb-module>
+</project-modules>

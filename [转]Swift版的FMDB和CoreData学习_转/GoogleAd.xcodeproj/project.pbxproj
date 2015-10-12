@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D7DFE3E19AD66F200284480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DFE3D19AD66F200284480 /* AppDelegate.swift */; };
+		4D7DFE4019AD66F200284480 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DFE3F19AD66F200284480 /* ViewController.swift */; };
+		4D7DFE4319AD66F200284480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7DFE4119AD66F200284480 /* Main.storyboard */; };
+		4D7DFE4519AD66F200284480 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7DFE4419AD66F200284480 /* Images.xcassets */; };
+		4D7DFE5119AD66F300284480 /* GoogleAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D7DFE5019AD66F300284480 /* GoogleAdTests.swift */; };
+		4D7DFE6919AD676200284480 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7DFE6719AD676200284480 /* libGoogleAdMobAds.a */; };
+		4D7DFE6A19AD676200284480 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4D7DFE6819AD676200284480 /* README.txt */; };
+		4D7DFE6C19AD677F00284480 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D7DFE6B19AD677E00284480 /* AdSupport.framework */; };
+		4D7DFE6F19AD8EBA00284480 /* admob.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D7DFE6E19AD8EBA00284480 /* admob.png */; };
+		4DAFE5A81A7200780099FC0D /* CoreDataDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFE5A71A7200780099FC0D /* CoreDataDemoViewController.swift */; };
+		4DAFE5B01A722EB60099FC0D /* CoreDataContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFE5AA1A722EB60099FC0D /* CoreDataContext.swift */; };
+		4DAFE5B11A722EB60099FC0D /* CoreDataDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFE5AB1A722EB60099FC0D /* CoreDataDAL.swift */; };
+		4DAFE5B21A722EB60099FC0D /* CoreDataDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFE5AC1A722EB60099FC0D /* CoreDataDAO.swift */; };
+		4DAFE5B41A722EB60099FC0D /* PersonModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFE5AF1A722EB60099FC0D /* PersonModal.swift */; };
+		4DAFE5B71A723C470099FC0D /* Person.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFE5B51A723C470099FC0D /* Person.xcdatamodeld */; };
+		ABC62F6A1A2214AA00013B12 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F611A2214AA00013B12 /* FMDatabase.m */; };
+		ABC62F6B1A2214AA00013B12 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F631A2214AA00013B12 /* FMDatabaseAdditions.m */; };
+		ABC62F6C1A2214AA00013B12 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F651A2214AA00013B12 /* FMDatabasePool.m */; };
+		ABC62F6D1A2214AA00013B12 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F671A2214AA00013B12 /* FMDatabaseQueue.m */; };
+		ABC62F6E1A2214AA00013B12 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F691A2214AA00013B12 /* FMResultSet.m */; };
+		ABC62F731A22155300013B12 /* EntryDAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F721A22155300013B12 /* EntryDAL.swift */; };
+		ABC62F751A22156300013B12 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F741A22156300013B12 /* Entry.swift */; };
+		ABC62F781A22157600013B12 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F761A22157600013B12 /* DAO.swift */; };
+		ABC62F791A22157600013B12 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F771A22157600013B12 /* DB.swift */; };
+		ABC62F7C1A22168100013B12 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F7A1A22168100013B12 /* AddEntryViewController.swift */; };
+		ABC62F7D1A22168100013B12 /* FMDBDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC62F7B1A22168100013B12 /* FMDBDemoViewController.swift */; };
+		ABC62F7F1A2217DA00013B12 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC62F7E1A2217DA00013B12 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D7DFE4B19AD66F300284480 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D7DFE3019AD66F200284480 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D7DFE3719AD66F200284480;
+			remoteInfo = GoogleAd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D7DFE3819AD66F200284480 /* GoogleAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7DFE3C19AD66F200284480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7DFE3D19AD66F200284480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D7DFE3F19AD66F200284480 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D7DFE4219AD66F200284480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D7DFE4419AD66F200284480 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D7DFE4A19AD66F200284480 /* GoogleAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7DFE4F19AD66F300284480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D7DFE5019AD66F300284480 /* GoogleAdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdTests.swift; sourceTree = "<group>"; };
+		4D7DFE5B19AD676200284480 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		4D7DFE5C19AD676200284480 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		4D7DFE5D19AD676200284480 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		4D7DFE5E19AD676200284480 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		4D7DFE5F19AD676200284480 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		4D7DFE6019AD676200284480 /* GADInAppPurchase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchase.h; sourceTree = "<group>"; };
+		4D7DFE6119AD676200284480 /* GADInAppPurchaseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInAppPurchaseDelegate.h; sourceTree = "<group>"; };
+		4D7DFE6219AD676200284480 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		4D7DFE6319AD676200284480 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		4D7DFE6419AD676200284480 /* GADModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADModules.h; sourceTree = "<group>"; };
+		4D7DFE6519AD676200284480 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		4D7DFE6619AD676200284480 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		4D7DFE6719AD676200284480 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		4D7DFE6819AD676200284480 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		4D7DFE6B19AD677E00284480 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4D7DFE6D19AD67C500284480 /* Swift_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Swift_Bridging_Header.h; sourceTree = "<group>"; };
+		4D7DFE6E19AD8EBA00284480 /* admob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = admob.png; sourceTree = "<group>"; };
+		4DAFE5A71A7200780099FC0D /* CoreDataDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDemoViewController.swift; sourceTree = "<group>"; };
+		4DAFE5AA1A722EB60099FC0D /* CoreDataContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataContext.swift; sourceTree = "<group>"; };
+		4DAFE5AB1A722EB60099FC0D /* CoreDataDAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDAL.swift; sourceTree = "<group>"; };
+		4DAFE5AC1A722EB60099FC0D /* CoreDataDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataDAO.swift; sourceTree = "<group>"; };
+		4DAFE5AF1A722EB60099FC0D /* PersonModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModal.swift; sourceTree = "<group>"; };
+		4DAFE5B61A723C470099FC0D /* Person.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Person.xcdatamodel; sourceTree = "<group>"; };
+		ABC62F601A2214AA00013B12 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		ABC62F611A2214AA00013B12 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		ABC62F621A2214AA00013B12 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		ABC62F631A2214AA00013B12 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		ABC62F641A2214AA00013B12 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		ABC62F651A2214AA00013B12 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		ABC62F661A2214AA00013B12 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		ABC62F671A2214AA00013B12 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		ABC62F681A2214AA00013B12 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		ABC62F691A2214AA00013B12 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		ABC62F721A22155300013B12 /* EntryDAL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryDAL.swift; path = SwiftFMDB/EntryDAL.swift; sourceTree = "<group>"; };
+		ABC62F741A22156300013B12 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = SwiftFMDB/Entry.swift; sourceTree = "<group>"; };
+		ABC62F761A22157600013B12 /* DAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DAO.swift; path = SwiftFMDB/DAO.swift; sourceTree = "<group>"; };
+		ABC62F771A22157600013B12 /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DB.swift; path = SwiftFMDB/DB.swift; sourceTree = "<group>"; };
+		ABC62F7A1A22168100013B12 /* AddEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddEntryViewController.swift; path = SwiftFMDB/AddEntryViewController.swift; sourceTree = "<group>"; };
+		ABC62F7B1A22168100013B12 /* FMDBDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMDBDemoViewController.swift; path = SwiftFMDB/FMDBDemoViewController.swift; sourceTree = "<group>"; };
+		ABC62F7E1A2217DA00013B12 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7DFE3519AD66F200284480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC62F7F1A2217DA00013B12 /* libsqlite3.dylib in Frameworks */,
+				4D7DFE6C19AD677F00284480 /* AdSupport.framework in Frameworks */,
+				4D7DFE6919AD676200284480 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7DFE4719AD66F200284480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D7DFE2F19AD66F100284480 = {
+			isa = PBXGroup;
+			children = (
+				4DAFE5A61A7200780099FC0D /* SwiftCoreData */,
+				ABC62F5E1A22147B00013B12 /* SwiftFMDB */,
+				4D7DFE3A19AD66F200284480 /* GoogleAd */,
+				4D7DFE4D19AD66F300284480 /* GoogleAdTests */,
+				4D7DFE3919AD66F200284480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D7DFE3919AD66F200284480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFE3819AD66F200284480 /* GoogleAd.app */,
+				4D7DFE4A19AD66F200284480 /* GoogleAdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D7DFE3A19AD66F200284480 /* GoogleAd */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFE6B19AD677E00284480 /* AdSupport.framework */,
+				4D7DFE6E19AD8EBA00284480 /* admob.png */,
+				4D7DFE5A19AD676200284480 /* GoogleAdMobSdk */,
+				4D7DFE3D19AD66F200284480 /* AppDelegate.swift */,
+				4D7DFE3F19AD66F200284480 /* ViewController.swift */,
+				4D7DFE4119AD66F200284480 /* Main.storyboard */,
+				4D7DFE4419AD66F200284480 /* Images.xcassets */,
+				4D7DFE3B19AD66F200284480 /* Supporting Files */,
+				4D7DFE6D19AD67C500284480 /* Swift_Bridging_Header.h */,
+			);
+			path = GoogleAd;
+			sourceTree = "<group>";
+		};
+		4D7DFE3B19AD66F200284480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFE3C19AD66F200284480 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D7DFE4D19AD66F300284480 /* GoogleAdTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFE5019AD66F300284480 /* GoogleAdTests.swift */,
+				4D7DFE4E19AD66F300284480 /* Supporting Files */,
+			);
+			path = GoogleAdTests;
+			sourceTree = "<group>";
+		};
+		4D7DFE4E19AD66F300284480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFE4F19AD66F300284480 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D7DFE5A19AD676200284480 /* GoogleAdMobSdk */ = {
+			isa = PBXGroup;
+			children = (
+				4D7DFE5B19AD676200284480 /* GADAdMobExtras.h */,
+				4D7DFE5C19AD676200284480 /* GADAdNetworkExtras.h */,
+				4D7DFE5D19AD676200284480 /* GADAdSize.h */,
+				4D7DFE5E19AD676200284480 /* GADBannerView.h */,
+				4D7DFE5F19AD676200284480 /* GADBannerViewDelegate.h */,
+				4D7DFE6019AD676200284480 /* GADInAppPurchase.h */,
+				4D7DFE6119AD676200284480 /* GADInAppPurchaseDelegate.h */,
+				4D7DFE6219AD676200284480 /* GADInterstitial.h */,
+				4D7DFE6319AD676200284480 /* GADInterstitialDelegate.h */,
+				4D7DFE6419AD676200284480 /* GADModules.h */,
+				4D7DFE6519AD676200284480 /* GADRequest.h */,
+				4D7DFE6619AD676200284480 /* GADRequestError.h */,
+				4D7DFE6719AD676200284480 /* libGoogleAdMobAds.a */,
+				4D7DFE6819AD676200284480 /* README.txt */,
+			);
+			path = GoogleAdMobSdk;
+			sourceTree = SOURCE_ROOT;
+		};
+		4DAFE5A61A7200780099FC0D /* SwiftCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFE5A91A722EB60099FC0D /* CoreData */,
+				4DAFE5A71A7200780099FC0D /* CoreDataDemoViewController.swift */,
+			);
+			path = SwiftCoreData;
+			sourceTree = "<group>";
+		};
+		4DAFE5A91A722EB60099FC0D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFE5AA1A722EB60099FC0D /* CoreDataContext.swift */,
+				4DAFE5AB1A722EB60099FC0D /* CoreDataDAL.swift */,
+				4DAFE5AC1A722EB60099FC0D /* CoreDataDAO.swift */,
+				4DAFE5AF1A722EB60099FC0D /* PersonModal.swift */,
+				4DAFE5B51A723C470099FC0D /* Person.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		ABC62F5E1A22147B00013B12 /* SwiftFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				ABC62F7E1A2217DA00013B12 /* libsqlite3.dylib */,
+				ABC62F7A1A22168100013B12 /* AddEntryViewController.swift */,
+				ABC62F7B1A22168100013B12 /* FMDBDemoViewController.swift */,
+				ABC62F711A22153F00013B12 /* DAL */,
+				ABC62F701A22153800013B12 /* DAO */,
+				ABC62F6F1A22152F00013B12 /* Model */,
+				ABC62F5F1A2214AA00013B12 /* FMDB */,
+			);
+			name = SwiftFMDB;
+			sourceTree = "<group>";
+		};
+		ABC62F5F1A2214AA00013B12 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				ABC62F601A2214AA00013B12 /* FMDatabase.h */,
+				ABC62F611A2214AA00013B12 /* FMDatabase.m */,
+				ABC62F621A2214AA00013B12 /* FMDatabaseAdditions.h */,
+				ABC62F631A2214AA00013B12 /* FMDatabaseAdditions.m */,
+				ABC62F641A2214AA00013B12 /* FMDatabasePool.h */,
+				ABC62F651A2214AA00013B12 /* FMDatabasePool.m */,
+				ABC62F661A2214AA00013B12 /* FMDatabaseQueue.h */,
+				ABC62F671A2214AA00013B12 /* FMDatabaseQueue.m */,
+				ABC62F681A2214AA00013B12 /* FMResultSet.h */,
+				ABC62F691A2214AA00013B12 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = SwiftFMDB/FMDB;
+			sourceTree = "<group>";
+		};
+		ABC62F6F1A22152F00013B12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABC62F741A22156300013B12 /* Entry.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		ABC62F701A22153800013B12 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				ABC62F761A22157600013B12 /* DAO.swift */,
+				ABC62F771A22157600013B12 /* DB.swift */,
+			);
+			name = DAO;
+			sourceTree = "<group>";
+		};
+		ABC62F711A22153F00013B12 /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				ABC62F721A22155300013B12 /* EntryDAL.swift */,
+			);
+			name = DAL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D7DFE3719AD66F200284480 /* GoogleAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7DFE5419AD66F300284480 /* Build configuration list for PBXNativeTarget "GoogleAd" */;
+			buildPhases = (
+				4D7DFE3419AD66F200284480 /* Sources */,
+				4D7DFE3519AD66F200284480 /* Frameworks */,
+				4D7DFE3619AD66F200284480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAd;
+			productName = GoogleAd;
+			productReference = 4D7DFE3819AD66F200284480 /* GoogleAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D7DFE4919AD66F200284480 /* GoogleAdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7DFE5719AD66F300284480 /* Build configuration list for PBXNativeTarget "GoogleAdTests" */;
+			buildPhases = (
+				4D7DFE4619AD66F200284480 /* Sources */,
+				4D7DFE4719AD66F200284480 /* Frameworks */,
+				4D7DFE4819AD66F200284480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D7DFE4C19AD66F300284480 /* PBXTargetDependency */,
+			);
+			name = GoogleAdTests;
+			productName = GoogleAdTests;
+			productReference = 4D7DFE4A19AD66F200284480 /* GoogleAdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D7DFE3019AD66F200284480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = GoldenFire.Do;
+				TargetAttributes = {
+					4D7DFE3719AD66F200284480 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					4D7DFE4919AD66F200284480 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4D7DFE3719AD66F200284480;
+					};
+				};
+			};
+			buildConfigurationList = 4D7DFE3319AD66F200284480 /* Build configuration list for PBXProject "GoogleAd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D7DFE2F19AD66F100284480;
+			productRefGroup = 4D7DFE3919AD66F200284480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D7DFE3719AD66F200284480 /* GoogleAd */,
+				4D7DFE4919AD66F200284480 /* GoogleAdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D7DFE3619AD66F200284480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7DFE4319AD66F200284480 /* Main.storyboard in Resources */,
+				4D7DFE6A19AD676200284480 /* README.txt in Resources */,
+				4D7DFE4519AD66F200284480 /* Images.xcassets in Resources */,
+				4D7DFE6F19AD8EBA00284480 /* admob.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7DFE4819AD66F200284480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7DFE3419AD66F200284480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAFE5B21A722EB60099FC0D /* CoreDataDAO.swift in Sources */,
+				4DAFE5B11A722EB60099FC0D /* CoreDataDAL.swift in Sources */,
+				ABC62F6A1A2214AA00013B12 /* FMDatabase.m in Sources */,
+				4DAFE5B01A722EB60099FC0D /* CoreDataContext.swift in Sources */,
+				ABC62F791A22157600013B12 /* DB.swift in Sources */,
+				4D7DFE4019AD66F200284480 /* ViewController.swift in Sources */,
+				4DAFE5B41A722EB60099FC0D /* PersonModal.swift in Sources */,
+				ABC62F6E1A2214AA00013B12 /* FMResultSet.m in Sources */,
+				ABC62F6C1A2214AA00013B12 /* FMDatabasePool.m in Sources */,
+				4DAFE5B71A723C470099FC0D /* Person.xcdatamodeld in Sources */,
+				ABC62F781A22157600013B12 /* DAO.swift in Sources */,
+				4DAFE5A81A7200780099FC0D /* CoreDataDemoViewController.swift in Sources */,
+				ABC62F7D1A22168100013B12 /* FMDBDemoViewController.swift in Sources */,
+				ABC62F731A22155300013B12 /* EntryDAL.swift in Sources */,
+				4D7DFE3E19AD66F200284480 /* AppDelegate.swift in Sources */,
+				ABC62F751A22156300013B12 /* Entry.swift in Sources */,
+				ABC62F7C1A22168100013B12 /* AddEntryViewController.swift in Sources */,
+				ABC62F6B1A2214AA00013B12 /* FMDatabaseAdditions.m in Sources */,
+				ABC62F6D1A2214AA00013B12 /* FMDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D7DFE4619AD66F200284480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7DFE5119AD66F300284480 /* GoogleAdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D7DFE4C19AD66F300284480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D7DFE3719AD66F200284480 /* GoogleAd */;
+			targetProxy = 4D7DFE4B19AD66F300284480 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D7DFE4119AD66F200284480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D7DFE4219AD66F200284480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D7DFE5219AD66F300284480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D7DFE5319AD66F300284480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D7DFE5519AD66F300284480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GoogleAd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAdMobSdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Swift_Bridging_Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4D7DFE5619AD66F300284480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = GoogleAd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleAdMobSdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Swift_Bridging_Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D7DFE5819AD66F300284480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAd.app/GoogleAd";
+			};
+			name = Debug;
+		};
+		4D7DFE5919AD66F300284480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleAd.app/GoogleAd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7DFE3319AD66F200284480 /* Build configuration list for PBXProject "GoogleAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7DFE5219AD66F300284480 /* Debug */,
+				4D7DFE5319AD66F300284480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7DFE5419AD66F300284480 /* Build configuration list for PBXNativeTarget "GoogleAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7DFE5519AD66F300284480 /* Debug */,
+				4D7DFE5619AD66F300284480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D7DFE5719AD66F300284480 /* Build configuration list for PBXNativeTarget "GoogleAdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7DFE5819AD66F300284480 /* Debug */,
+				4D7DFE5919AD66F300284480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DAFE5B51A723C470099FC0D /* Person.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DAFE5B61A723C470099FC0D /* Person.xcdatamodel */,
+			);
+			currentVersion = 4DAFE5B61A723C470099FC0D /* Person.xcdatamodel */;
+			path = Person.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D7DFE3019AD66F200284480 /* Project object */;
+}

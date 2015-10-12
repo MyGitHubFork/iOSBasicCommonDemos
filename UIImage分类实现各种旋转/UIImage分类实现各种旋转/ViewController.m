@@ -33,7 +33,7 @@
     [super viewDidLoad];
     
     
-    UIImage *originalImage = [UIImage imageNamed:@"Icon.png"];
+    UIImage *originalImage = [UIImage imageNamed:@"icon.png"];
     
     self.originalImageView.image = originalImage;
     //顺时针旋转90度

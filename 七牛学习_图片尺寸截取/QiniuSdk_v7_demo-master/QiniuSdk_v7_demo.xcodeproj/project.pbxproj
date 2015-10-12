@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036983B0BA98D7EE6A73A0A7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C50FE55D6793B6C8DE4B410C /* libPods.a */; };
+		F36B8CA81A135E15004EA04A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B8CA71A135E15004EA04A /* main.m */; };
+		F36B8CAB1A135E15004EA04A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B8CAA1A135E15004EA04A /* AppDelegate.m */; };
+		F36B8CAE1A135E15004EA04A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B8CAD1A135E15004EA04A /* ViewController.m */; };
+		F36B8CB11A135E15004EA04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36B8CAF1A135E15004EA04A /* Main.storyboard */; };
+		F36B8CB31A135E15004EA04A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36B8CB21A135E15004EA04A /* Images.xcassets */; };
+		F36B8CB61A135E15004EA04A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F36B8CB41A135E15004EA04A /* LaunchScreen.xib */; };
+		F36B8CC21A135E16004EA04A /* QiniuSdk_v7_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F36B8CC11A135E16004EA04A /* QiniuSdk_v7_demoTests.m */; };
+		F36B8CCC1A135F6B004EA04A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F36B8CCB1A135F6B004EA04A /* libz.dylib */; };
+		F36B8CCF1A136025004EA04A /* the_v.png in Resources */ = {isa = PBXBuildFile; fileRef = F36B8CCE1A136025004EA04A /* the_v.png */; };
+		F3E0CD981A142F9D00353DF4 /* sight_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E0CD951A142F9D00353DF4 /* sight_1.jpg */; };
+		F3E0CD991A142F9D00353DF4 /* sight_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3E0CD961A142F9D00353DF4 /* sight_2.jpg */; };
+		F3E0CD9A1A142F9D00353DF4 /* vimo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3E0CD971A142F9D00353DF4 /* vimo.png */; };
+		F3E0CD9D1A142FD900353DF4 /* UIImage+ResizeMagick.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E0CD9C1A142FD900353DF4 /* UIImage+ResizeMagick.m */; };
+		F3E0CD9F1A14364B00353DF4 /* pixar.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3E0CD9E1A14364B00353DF4 /* pixar.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36B8CBC1A135E16004EA04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36B8C9A1A135E15004EA04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36B8CA11A135E15004EA04A;
+			remoteInfo = QiniuSdk_v7_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		51788A504ED64BFDB823C3DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C50FE55D6793B6C8DE4B410C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68AB79B18D61DF0CCD0BA66 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F36B8CA21A135E15004EA04A /* QiniuSdk_v7_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiniuSdk_v7_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36B8CA61A135E15004EA04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36B8CA71A135E15004EA04A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F36B8CA91A135E15004EA04A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F36B8CAA1A135E15004EA04A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F36B8CAC1A135E15004EA04A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F36B8CAD1A135E15004EA04A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F36B8CB01A135E15004EA04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F36B8CB21A135E15004EA04A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F36B8CB51A135E15004EA04A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F36B8CBB1A135E16004EA04A /* QiniuSdk_v7_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QiniuSdk_v7_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36B8CC01A135E16004EA04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36B8CC11A135E16004EA04A /* QiniuSdk_v7_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiniuSdk_v7_demoTests.m; sourceTree = "<group>"; };
+		F36B8CCB1A135F6B004EA04A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F36B8CCE1A136025004EA04A /* the_v.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_v.png; sourceTree = "<group>"; };
+		F3E0CD951A142F9D00353DF4 /* sight_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sight_1.jpg; sourceTree = "<group>"; };
+		F3E0CD961A142F9D00353DF4 /* sight_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sight_2.jpg; sourceTree = "<group>"; };
+		F3E0CD971A142F9D00353DF4 /* vimo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vimo.png; sourceTree = "<group>"; };
+		F3E0CD9B1A142FD900353DF4 /* UIImage+ResizeMagick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizeMagick.h"; sourceTree = "<group>"; };
+		F3E0CD9C1A142FD900353DF4 /* UIImage+ResizeMagick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizeMagick.m"; sourceTree = "<group>"; };
+		F3E0CD9E1A14364B00353DF4 /* pixar.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pixar.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36B8C9F1A135E15004EA04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B8CCC1A135F6B004EA04A /* libz.dylib in Frameworks */,
+				036983B0BA98D7EE6A73A0A7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B8CB81A135E16004EA04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38ACB7AD0CA64D18A7AC0F2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51788A504ED64BFDB823C3DC /* Pods.debug.xcconfig */,
+				C68AB79B18D61DF0CCD0BA66 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A7A23A438EBB23ABE8851C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F36B8CCB1A135F6B004EA04A /* libz.dylib */,
+				C50FE55D6793B6C8DE4B410C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F36B8C991A135E15004EA04A = {
+			isa = PBXGroup;
+			children = (
+				F36B8CA41A135E15004EA04A /* QiniuSdk_v7_demo */,
+				F36B8CBE1A135E16004EA04A /* QiniuSdk_v7_demoTests */,
+				F36B8CA31A135E15004EA04A /* Products */,
+				38ACB7AD0CA64D18A7AC0F2C /* Pods */,
+				8A7A23A438EBB23ABE8851C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F36B8CA31A135E15004EA04A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36B8CA21A135E15004EA04A /* QiniuSdk_v7_demo.app */,
+				F36B8CBB1A135E16004EA04A /* QiniuSdk_v7_demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36B8CA41A135E15004EA04A /* QiniuSdk_v7_demo */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0CD9B1A142FD900353DF4 /* UIImage+ResizeMagick.h */,
+				F3E0CD9C1A142FD900353DF4 /* UIImage+ResizeMagick.m */,
+				F36B8CCD1A136025004EA04A /* Example */,
+				F36B8CA91A135E15004EA04A /* AppDelegate.h */,
+				F36B8CAA1A135E15004EA04A /* AppDelegate.m */,
+				F36B8CAC1A135E15004EA04A /* ViewController.h */,
+				F36B8CAD1A135E15004EA04A /* ViewController.m */,
+				F36B8CAF1A135E15004EA04A /* Main.storyboard */,
+				F36B8CB21A135E15004EA04A /* Images.xcassets */,
+				F36B8CB41A135E15004EA04A /* LaunchScreen.xib */,
+				F36B8CA51A135E15004EA04A /* Supporting Files */,
+			);
+			path = QiniuSdk_v7_demo;
+			sourceTree = "<group>";
+		};
+		F36B8CA51A135E15004EA04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36B8CA61A135E15004EA04A /* Info.plist */,
+				F36B8CA71A135E15004EA04A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F36B8CBE1A135E16004EA04A /* QiniuSdk_v7_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F36B8CC11A135E16004EA04A /* QiniuSdk_v7_demoTests.m */,
+				F36B8CBF1A135E16004EA04A /* Supporting Files */,
+			);
+			path = QiniuSdk_v7_demoTests;
+			sourceTree = "<group>";
+		};
+		F36B8CBF1A135E16004EA04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F36B8CC01A135E16004EA04A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F36B8CCD1A136025004EA04A /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0CD9E1A14364B00353DF4 /* pixar.jpeg */,
+				F3E0CD951A142F9D00353DF4 /* sight_1.jpg */,
+				F3E0CD961A142F9D00353DF4 /* sight_2.jpg */,
+				F3E0CD971A142F9D00353DF4 /* vimo.png */,
+				F36B8CCE1A136025004EA04A /* the_v.png */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F36B8CA11A135E15004EA04A /* QiniuSdk_v7_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36B8CC51A135E16004EA04A /* Build configuration list for PBXNativeTarget "QiniuSdk_v7_demo" */;
+			buildPhases = (
+				9A40C6784BFCCDEBB93B0AB9 /* Check Pods Manifest.lock */,
+				F36B8C9E1A135E15004EA04A /* Sources */,
+				F36B8C9F1A135E15004EA04A /* Frameworks */,
+				F36B8CA01A135E15004EA04A /* Resources */,
+				101E754F6B102C7C4AB48A4A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiniuSdk_v7_demo;
+			productName = QiniuSdk_v7_demo;
+			productReference = F36B8CA21A135E15004EA04A /* QiniuSdk_v7_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36B8CBA1A135E16004EA04A /* QiniuSdk_v7_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36B8CC81A135E16004EA04A /* Build configuration list for PBXNativeTarget "QiniuSdk_v7_demoTests" */;
+			buildPhases = (
+				F36B8CB71A135E16004EA04A /* Sources */,
+				F36B8CB81A135E16004EA04A /* Frameworks */,
+				F36B8CB91A135E16004EA04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36B8CBD1A135E16004EA04A /* PBXTargetDependency */,
+			);
+			name = QiniuSdk_v7_demoTests;
+			productName = QiniuSdk_v7_demoTests;
+			productReference = F36B8CBB1A135E16004EA04A /* QiniuSdk_v7_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36B8C9A1A135E15004EA04A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = TheEstGroup;
+				TargetAttributes = {
+					F36B8CA11A135E15004EA04A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F36B8CBA1A135E16004EA04A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F36B8CA11A135E15004EA04A;
+					};
+				};
+			};
+			buildConfigurationList = F36B8C9D1A135E15004EA04A /* Build configuration list for PBXProject "QiniuSdk_v7_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F36B8C991A135E15004EA04A;
+			productRefGroup = F36B8CA31A135E15004EA04A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36B8CA11A135E15004EA04A /* QiniuSdk_v7_demo */,
+				F36B8CBA1A135E16004EA04A /* QiniuSdk_v7_demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36B8CA01A135E15004EA04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B8CB11A135E15004EA04A /* Main.storyboard in Resources */,
+				F36B8CB61A135E15004EA04A /* LaunchScreen.xib in Resources */,
+				F3E0CD9F1A14364B00353DF4 /* pixar.jpeg in Resources */,
+				F3E0CD9A1A142F9D00353DF4 /* vimo.png in Resources */,
+				F36B8CCF1A136025004EA04A /* the_v.png in Resources */,
+				F36B8CB31A135E15004EA04A /* Images.xcassets in Resources */,
+				F3E0CD991A142F9D00353DF4 /* sight_2.jpg in Resources */,
+				F3E0CD981A142F9D00353DF4 /* sight_1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B8CB91A135E16004EA04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		101E754F6B102C7C4AB48A4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A40C6784BFCCDEBB93B0AB9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36B8C9E1A135E15004EA04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B8CAE1A135E15004EA04A /* ViewController.m in Sources */,
+				F36B8CAB1A135E15004EA04A /* AppDelegate.m in Sources */,
+				F36B8CA81A135E15004EA04A /* main.m in Sources */,
+				F3E0CD9D1A142FD900353DF4 /* UIImage+ResizeMagick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36B8CB71A135E16004EA04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36B8CC21A135E16004EA04A /* QiniuSdk_v7_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36B8CBD1A135E16004EA04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36B8CA11A135E15004EA04A /* QiniuSdk_v7_demo */;
+			targetProxy = F36B8CBC1A135E16004EA04A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F36B8CAF1A135E15004EA04A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36B8CB01A135E15004EA04A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F36B8CB41A135E15004EA04A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36B8CB51A135E15004EA04A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F36B8CC31A135E16004EA04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F36B8CC41A135E16004EA04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F36B8CC61A135E16004EA04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51788A504ED64BFDB823C3DC /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiniuSdk_v7_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F36B8CC71A135E16004EA04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68AB79B18D61DF0CCD0BA66 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QiniuSdk_v7_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F36B8CC91A135E16004EA04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QiniuSdk_v7_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuSdk_v7_demo.app/QiniuSdk_v7_demo";
+			};
+			name = Debug;
+		};
+		F36B8CCA1A135E16004EA04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QiniuSdk_v7_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QiniuSdk_v7_demo.app/QiniuSdk_v7_demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36B8C9D1A135E15004EA04A /* Build configuration list for PBXProject "QiniuSdk_v7_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36B8CC31A135E16004EA04A /* Debug */,
+				F36B8CC41A135E16004EA04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36B8CC51A135E16004EA04A /* Build configuration list for PBXNativeTarget "QiniuSdk_v7_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36B8CC61A135E16004EA04A /* Debug */,
+				F36B8CC71A135E16004EA04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36B8CC81A135E16004EA04A /* Build configuration list for PBXNativeTarget "QiniuSdk_v7_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36B8CC91A135E16004EA04A /* Debug */,
+				F36B8CCA1A135E16004EA04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F36B8C9A1A135E15004EA04A /* Project object */;
+}

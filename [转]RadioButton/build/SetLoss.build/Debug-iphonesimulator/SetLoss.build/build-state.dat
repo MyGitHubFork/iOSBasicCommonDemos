@@ -1,0 +1,307 @@
+TSetLoss
+v7
+r0
+t314508808.179826
+cCheck dependencies
+cProcessInfoPlistFile "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/Info.plist" SetLoss-Info.plist
+cCompileXIB "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/MainWindow.xib"
+cCpResource build/Debug-iphonesimulator/SetLoss.app/RadioButton_check.png image/RadioButton_check.png
+cCpResource build/Debug-iphonesimulator/SetLoss.app/RadioButton_Not_check.png image/RadioButton_Not_check.png
+cProcessPCH /var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch.gch SetLoss_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/main.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/SetLossAppDelegate.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/MainVC.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/RadioButton.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss" normal i386
+cGenerateDSYMFile "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app.dSYM" "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss"
+cTouch "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.h
+c000000004D0EC65D0000000000000140
+t1292813917
+s320
+i<UIKit/UIKit.h>
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.m
+c000000004D0ECE850000000000000A28
+t1292816005
+s2600
+i"SetLossAppDelegate.h"
+i"MainVC.h"
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.h
+c000000004D0ECD61000000000000019E
+t1292815713
+s414
+i<UIKit/UIKit.h>
+i"RadioButton.h"
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.m
+c000000004D0ECE330000000000000979
+t1292815923
+s2425
+i"MainVC.h"
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.h
+c000000004D0EBB5D00000000000002D7
+t1292811101
+s727
+i<UIKit/UIKit.h>
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.m
+c000000004D0EBB5D00000000000005B6
+t1292811101
+s1462
+i"RadioButton.h"
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/MainWindow.xib
+c000000004D0EC65D0000000000002108
+t1292813917
+s8456
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/SetLoss_Prefix.pch
+c000000004D0EC65D00000000000000B7
+t1292813917
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app
+t1292816008
+s272
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app.dSYM
+t1292816008
+s102
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/Info.plist
+t1292816005
+s591
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/MainWindow.nib
+t1292816006
+s984
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/PkgInfo
+t1292816005
+s8
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/RadioButton_Not_check.png
+t1292816005
+s184
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/RadioButton_check.png
+t1292816005
+s260
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss
+t1292816008
+s23908
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/MainVC.o
+t1292816007
+s47440
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/RadioButton.o
+t1292816007
+s43688
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/SetLoss.LinkFileList
+c000000004D0ECE85000000000000026B
+t1292816005
+s619
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/SetLossAppDelegate.o
+t1292816007
+s50636
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/main.o
+t1292816007
+s6356
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/image/RadioButton_Not_check.png
+c000000004D0EBB5D00000000000000B8
+t1292811101
+s184
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/image/RadioButton_check.png
+c000000004D0EBB5D0000000000000104
+t1292811101
+s260
+
+N/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/main.m
+c000000004D0EC65D0000000000000162
+t1292813917
+s354
+i<UIKit/UIKit.h>
+
+N/var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch.gch
+t1292816007
+s15453392
+
+NSetLoss-Info.plist
+c000000004D0EC65D000000000000038D
+t1292813917
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies314508805#314508805#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/MainVC.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314508807.562153
+e314508807.707715
+r1
+xCompileC
+xbuild/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/MainVC.o
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.m314508807#314508807#0(0"0(0#0#87"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.m8625536960#2250"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-generated-files.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-own-target-headers.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-all-target-headers.hmap" -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-project-headers.hmap" "-F/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/include" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources/i386" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources" -include /var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch -c "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/main/MainVC.m" -o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/MainVC.o"0#
+
+CCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/RadioButton.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314508807.579980
+e314508807.689831
+r1
+xCompileC
+xbuild/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/RadioButton.o
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.m314508807#314508807#0(0"0(0#0#96"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.m8624630912#2264"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-generated-files.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-own-target-headers.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-all-target-headers.hmap" -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-project-headers.hmap" "-F/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/include" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources/i386" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources" -include /var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch -c "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/uitility/RadioButton.m" -o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/RadioButton.o"0#
+
+CCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/SetLossAppDelegate.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314508807.330096
+e314508807.579877
+r1
+xCompileC
+xbuild/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/SetLossAppDelegate.o
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.m314508807#314508807#0(0"0(0#0#94"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.m8624586304#2269"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-generated-files.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-own-target-headers.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-all-target-headers.hmap" -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-project-headers.hmap" "-F/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/include" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources/i386" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources" -include /var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch -c "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/Classes/SetLossAppDelegate.m" -o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/SetLossAppDelegate.o"0#
+
+CCompileC build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/main.o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s314508807.328932
+e314508807.562011
+r1
+xCompileC
+xbuild/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/main.o
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/main.m314508807#314508807#0(0"0(0#0#72"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/main.m8625545792#2233"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-generated-files.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-own-target-headers.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-all-target-headers.hmap" -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-project-headers.hmap" "-F/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/include" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources/i386" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources" -include /var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch -c "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/main.m" -o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/MainWindow.xib"
+s314508805.907639
+e314508806.338927
+r1
+xCompileXIB
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib314508805#314508806#0(0"0(0#0#80"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/MainWindow.xib8623376288#657"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/MainWindow.nib" "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/SetLoss.app/RadioButton_Not_check.png image/RadioButton_Not_check.png
+s314508805.951262
+e314508805.973059
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SetLoss.app/RadioButton_Not_check.png
+ximage/RadioButton_Not_check.png
+lSLF07#2@36"Copy image/RadioButton_Not_check.png314508805#314508805#0(0"0(0#0#97"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/image/RadioButton_Not_check.png8637851104#576"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/image/RadioButton_Not_check.png" "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app"0#
+
+CCpResource build/Debug-iphonesimulator/SetLoss.app/RadioButton_check.png image/RadioButton_check.png
+s314508805.950154
+e314508805.977501
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SetLoss.app/RadioButton_check.png
+ximage/RadioButton_check.png
+lSLF07#2@32"Copy image/RadioButton_check.png314508805#314508805#0(0"0(0#0#93"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/image/RadioButton_check.png8637054880#572"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/image/RadioButton_check.png" "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app"0#
+
+CGenerateDSYMFile "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app.dSYM" "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss"
+s314508808.122908
+e314508808.173739
+r1
+xGenerateDSYMFile
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app.dSYM
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/SetLoss.app.dSYM build/Debug-iphonesimulator/SetLoss.app/SetLoss314508808#314508808#0(0"0(0#0#113"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss8622964384#470"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss" -o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app.dSYM"0#
+
+CLd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss" normal i386
+s314508807.707816
+e314508808.122808
+r1
+xLd
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss
+xnormal
+xi386
+lSLF07#2@118"Link /Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss314508807#314508808#0(0"0(0#0#0"8621367168#1045"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator" "-F/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator" -filelist "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/Objects-normal/i386/SetLoss.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/SetLoss"0#
+
+CProcessInfoPlistFile "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/Info.plist" SetLoss-Info.plist
+s314508805.835367
+e314508805.907552
+r1
+xProcessInfoPlistFile
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/Info.plist
+xSetLoss-Info.plist
+lSLF07#2@26"Process SetLoss-Info.plist314508805#314508805#0(0"0(0#0#84"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/SetLoss-Info.plist21392596452835412#566"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SetLoss-Info.plist -genpkginfo "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app/Info.plist"0#
+
+CProcessPCH /var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch.gch SetLoss_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s314508806.339127
+e314508807.328825
+r1
+xProcessPCH
+x/var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch.gch
+xSetLoss_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile SetLoss_Prefix.pch314508806#314508807#0(0"0(0#0#84"/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/SetLoss_Prefix.pch8638984992#2096"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-generated-files.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-own-target-headers.hmap" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-all-target-headers.hmap" -iquote "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/SetLoss-project-headers.hmap" "-F/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/include" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources/i386" "-I/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/SetLoss.build/Debug-iphonesimulator/SetLoss.build/DerivedSources" -c "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/SetLoss_Prefix.pch" -o /var/folders/jy/jyAbEoKFFJq9O-KrJCCW8++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SetLoss_Prefix-hcfvvkfzrsrnjegbxxxtomwwahtp/SetLoss_Prefix.pch.gch0#
+
+CTouch "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app"
+s314508808.173829
+e314508808.179764
+r1
+xTouch
+x/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app
+lSLF07#2@111"Touch /Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app314508808#314508808#0(0"0(0#0#0"8622281280#336"    cd "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Volumes/WorkPlace HD/workplace_sduni/车辆定损/程序/SetLoss/build/Debug-iphonesimulator/SetLoss.app"0#
+

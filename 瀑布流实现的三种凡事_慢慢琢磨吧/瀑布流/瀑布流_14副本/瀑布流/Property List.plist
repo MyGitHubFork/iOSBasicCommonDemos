@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>headCell-ID</key>
+	<array>
+		<string>表头的可重用单元格放入缓存</string>
+	</array>
+	<key>bodyCell-ID</key>
+	<array>
+		<string>新闻正文的可重用单元格</string>
+		<string>新闻正文的可重用单元格</string>
+	</array>
+</dict>
+</plist>

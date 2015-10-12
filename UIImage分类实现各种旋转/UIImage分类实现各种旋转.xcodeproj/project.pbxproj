@@ -179,6 +179,7 @@
 				TargetAttributes = {
 					4DE71B791B4965750086A014 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = NQ6E3Q2SXY;
 					};
 					4DE71B921B4965750086A014 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -361,9 +362,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "UIImage分类实现各种旋转/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -371,9 +375,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "UIImage分类实现各种旋转/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -430,6 +437,7 @@
 				4DE71B9F1B4965750086A014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DE71BA01B4965750086A014 /* Build configuration list for PBXNativeTarget "UIImage分类实现各种旋转Tests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +446,7 @@
 				4DE71BA21B4965750086A014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

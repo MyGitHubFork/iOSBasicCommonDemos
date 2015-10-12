@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EB356561A25B7E000955318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB356551A25B7E000955318 /* Foundation.framework */; };
+		8EB356581A25B7E000955318 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB356571A25B7E000955318 /* CoreGraphics.framework */; };
+		8EB3565A1A25B7E000955318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB356591A25B7E000955318 /* UIKit.framework */; };
+		8EB356601A25B7E000955318 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB3565E1A25B7E000955318 /* InfoPlist.strings */; };
+		8EB356621A25B7E000955318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB356611A25B7E000955318 /* main.m */; };
+		8EB356661A25B7E000955318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB356651A25B7E000955318 /* AppDelegate.m */; };
+		8EB356681A25B7E000955318 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB356671A25B7E000955318 /* Images.xcassets */; };
+		8EB3566F1A25B7E100955318 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB3566E1A25B7E000955318 /* XCTest.framework */; };
+		8EB356701A25B7E100955318 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB356551A25B7E000955318 /* Foundation.framework */; };
+		8EB356711A25B7E100955318 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB356591A25B7E000955318 /* UIKit.framework */; };
+		8EB356791A25B7E100955318 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB356771A25B7E100955318 /* InfoPlist.strings */; };
+		8EB3567B1A25B7E100955318 /* CoreLocation__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3567A1A25B7E100955318 /* CoreLocation__Tests.m */; };
+		8EB356861A25B80900955318 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB356851A25B80900955318 /* MainViewController.m */; };
+		8EB356881A25B84500955318 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB356871A25B84500955318 /* CoreLocation.framework */; };
+		8EB3568A1A25CAE600955318 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB356891A25CAE600955318 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EB356721A25B7E100955318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EB3564A1A25B7E000955318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EB356511A25B7E000955318;
+			remoteInfo = "CoreLocation学习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EB356521A25B7E000955318 /* CoreLocation学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreLocation学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB356551A25B7E000955318 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8EB356571A25B7E000955318 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8EB356591A25B7E000955318 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8EB3565D1A25B7E000955318 /* CoreLocation学习-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreLocation学习-Info.plist"; sourceTree = "<group>"; };
+		8EB3565F1A25B7E000955318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EB356611A25B7E000955318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EB356631A25B7E000955318 /* CoreLocation学习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreLocation学习-Prefix.pch"; sourceTree = "<group>"; };
+		8EB356641A25B7E000955318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EB356651A25B7E000955318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EB356671A25B7E000955318 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EB3566D1A25B7E000955318 /* CoreLocation学习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreLocation学习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB3566E1A25B7E000955318 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8EB356761A25B7E100955318 /* CoreLocation学习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreLocation学习Tests-Info.plist"; sourceTree = "<group>"; };
+		8EB356781A25B7E100955318 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8EB3567A1A25B7E100955318 /* CoreLocation__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocation__Tests.m; sourceTree = "<group>"; };
+		8EB356841A25B80900955318 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8EB356851A25B80900955318 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8EB356871A25B84500955318 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8EB356891A25CAE600955318 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EB3564F1A25B7E000955318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB356881A25B84500955318 /* CoreLocation.framework in Frameworks */,
+				8EB356581A25B7E000955318 /* CoreGraphics.framework in Frameworks */,
+				8EB3568A1A25CAE600955318 /* MapKit.framework in Frameworks */,
+				8EB3565A1A25B7E000955318 /* UIKit.framework in Frameworks */,
+				8EB356561A25B7E000955318 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB3566A1A25B7E000955318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB3566F1A25B7E100955318 /* XCTest.framework in Frameworks */,
+				8EB356711A25B7E100955318 /* UIKit.framework in Frameworks */,
+				8EB356701A25B7E100955318 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EB356491A25B7E000955318 = {
+			isa = PBXGroup;
+			children = (
+				8EB3565B1A25B7E000955318 /* CoreLocation学习 */,
+				8EB356741A25B7E100955318 /* CoreLocation学习Tests */,
+				8EB356541A25B7E000955318 /* Frameworks */,
+				8EB356531A25B7E000955318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EB356531A25B7E000955318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB356521A25B7E000955318 /* CoreLocation学习.app */,
+				8EB3566D1A25B7E000955318 /* CoreLocation学习Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB356541A25B7E000955318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EB356891A25CAE600955318 /* MapKit.framework */,
+				8EB356871A25B84500955318 /* CoreLocation.framework */,
+				8EB356551A25B7E000955318 /* Foundation.framework */,
+				8EB356571A25B7E000955318 /* CoreGraphics.framework */,
+				8EB356591A25B7E000955318 /* UIKit.framework */,
+				8EB3566E1A25B7E000955318 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EB3565B1A25B7E000955318 /* CoreLocation学习 */ = {
+			isa = PBXGroup;
+			children = (
+				8EB356641A25B7E000955318 /* AppDelegate.h */,
+				8EB356651A25B7E000955318 /* AppDelegate.m */,
+				8EB356671A25B7E000955318 /* Images.xcassets */,
+				8EB3565C1A25B7E000955318 /* Supporting Files */,
+				8EB356841A25B80900955318 /* MainViewController.h */,
+				8EB356851A25B80900955318 /* MainViewController.m */,
+			);
+			path = "CoreLocation学习";
+			sourceTree = "<group>";
+		};
+		8EB3565C1A25B7E000955318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3565D1A25B7E000955318 /* CoreLocation学习-Info.plist */,
+				8EB3565E1A25B7E000955318 /* InfoPlist.strings */,
+				8EB356611A25B7E000955318 /* main.m */,
+				8EB356631A25B7E000955318 /* CoreLocation学习-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EB356741A25B7E100955318 /* CoreLocation学习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3567A1A25B7E100955318 /* CoreLocation__Tests.m */,
+				8EB356751A25B7E100955318 /* Supporting Files */,
+			);
+			path = "CoreLocation学习Tests";
+			sourceTree = "<group>";
+		};
+		8EB356751A25B7E100955318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB356761A25B7E100955318 /* CoreLocation学习Tests-Info.plist */,
+				8EB356771A25B7E100955318 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EB356511A25B7E000955318 /* CoreLocation学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB3567E1A25B7E100955318 /* Build configuration list for PBXNativeTarget "CoreLocation学习" */;
+			buildPhases = (
+				8EB3564E1A25B7E000955318 /* Sources */,
+				8EB3564F1A25B7E000955318 /* Frameworks */,
+				8EB356501A25B7E000955318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreLocation学习";
+			productName = "CoreLocation学习";
+			productReference = 8EB356521A25B7E000955318 /* CoreLocation学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EB3566C1A25B7E000955318 /* CoreLocation学习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EB356811A25B7E100955318 /* Build configuration list for PBXNativeTarget "CoreLocation学习Tests" */;
+			buildPhases = (
+				8EB356691A25B7E000955318 /* Sources */,
+				8EB3566A1A25B7E000955318 /* Frameworks */,
+				8EB3566B1A25B7E000955318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EB356731A25B7E100955318 /* PBXTargetDependency */,
+			);
+			name = "CoreLocation学习Tests";
+			productName = "CoreLocation学习Tests";
+			productReference = 8EB3566D1A25B7E000955318 /* CoreLocation学习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EB3564A1A25B7E000955318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "艾特远";
+				TargetAttributes = {
+					8EB356511A25B7E000955318 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8EB3566C1A25B7E000955318 = {
+						TestTargetID = 8EB356511A25B7E000955318;
+					};
+				};
+			};
+			buildConfigurationList = 8EB3564D1A25B7E000955318 /* Build configuration list for PBXProject "CoreLocation学习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8EB356491A25B7E000955318;
+			productRefGroup = 8EB356531A25B7E000955318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EB356511A25B7E000955318 /* CoreLocation学习 */,
+				8EB3566C1A25B7E000955318 /* CoreLocation学习Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EB356501A25B7E000955318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB356601A25B7E000955318 /* InfoPlist.strings in Resources */,
+				8EB356681A25B7E000955318 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB3566B1A25B7E000955318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB356791A25B7E100955318 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EB3564E1A25B7E000955318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB356661A25B7E000955318 /* AppDelegate.m in Sources */,
+				8EB356861A25B80900955318 /* MainViewController.m in Sources */,
+				8EB356621A25B7E000955318 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EB356691A25B7E000955318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB3567B1A25B7E100955318 /* CoreLocation__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EB356731A25B7E100955318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EB356511A25B7E000955318 /* CoreLocation学习 */;
+			targetProxy = 8EB356721A25B7E100955318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EB3565E1A25B7E000955318 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB3565F1A25B7E000955318 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8EB356771A25B7E100955318 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB356781A25B7E100955318 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EB3567C1A25B7E100955318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EB3567D1A25B7E100955318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EB3567F1A25B7E100955318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocation学习/CoreLocation学习-Prefix.pch";
+				INFOPLIST_FILE = "CoreLocation学习/CoreLocation学习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8EB356801A25B7E100955318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocation学习/CoreLocation学习-Prefix.pch";
+				INFOPLIST_FILE = "CoreLocation学习/CoreLocation学习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8EB356821A25B7E100955318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreLocation学习.app/CoreLocation学习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocation学习/CoreLocation学习-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CoreLocation学习Tests/CoreLocation学习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8EB356831A25B7E100955318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CoreLocation学习.app/CoreLocation学习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreLocation学习/CoreLocation学习-Prefix.pch";
+				INFOPLIST_FILE = "CoreLocation学习Tests/CoreLocation学习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EB3564D1A25B7E000955318 /* Build configuration list for PBXProject "CoreLocation学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB3567C1A25B7E100955318 /* Debug */,
+				8EB3567D1A25B7E100955318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB3567E1A25B7E100955318 /* Build configuration list for PBXNativeTarget "CoreLocation学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB3567F1A25B7E100955318 /* Debug */,
+				8EB356801A25B7E100955318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EB356811A25B7E100955318 /* Build configuration list for PBXNativeTarget "CoreLocation学习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB356821A25B7E100955318 /* Debug */,
+				8EB356831A25B7E100955318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EB3564A1A25B7E000955318 /* Project object */;
+}

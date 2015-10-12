@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A6EC1BCE-4343-421D-8D98-C48FE58F01E4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CoreTextDemo_mine</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5AF052007CCAC2C44C497F847D0C9AA8D535E855</key>
+		<string>https://github.com/huang303513/HCDCoreText.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CoreTextDemo_mine/CoreTextDemo_mine.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5AF052007CCAC2C44C497F847D0C9AA8D535E855</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huang303513/HCDCoreText.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5AF052007CCAC2C44C497F847D0C9AA8D535E855</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AF052007CCAC2C44C497F847D0C9AA8D535E855</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HCDCoreText</string>
+		</dict>
+	</array>
+</dict>
+</plist>

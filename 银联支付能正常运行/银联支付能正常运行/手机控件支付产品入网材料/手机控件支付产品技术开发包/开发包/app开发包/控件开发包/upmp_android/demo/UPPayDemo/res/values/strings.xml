@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DemoEx</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="entryTitle">接入方式选择</string>
+    <string name="apk">apk接入</string>
+    <string name="jar">jar接入</string>
+    <string name="payBYAPK">APK接入</string>
+    <string name="payBYJAR">JAR接入</string>
+
+</resources>
