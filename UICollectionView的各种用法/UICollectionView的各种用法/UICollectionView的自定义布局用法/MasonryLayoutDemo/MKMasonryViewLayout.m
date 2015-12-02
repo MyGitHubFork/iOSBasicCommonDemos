@@ -18,9 +18,9 @@
 #pragma mark 在开始布局之前调用。在这里设置列的个数、计算各种值。
 -(void) prepareLayout {
   //三竖
-  self.numberOfColumns = 3;
+  self.numberOfColumns = 2;
   //间隔
-  self.interItemSpacing = 12.5;
+  self.interItemSpacing = 1;
   
   self.lastYValueForColumn = [NSMutableDictionary dictionary];
   CGFloat currentColumn = 0;
