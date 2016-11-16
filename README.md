@@ -4,11 +4,11 @@
 
 ##带`转`字的都是别人下的、我只是下载觉得好，如果不适，请联系我。其他的基本上都是我iOS生涯各个时期的学习Demo，基本都是我自己敲的或者学的，希望能对你有所帮助。其中有一些随着时间的流逝丢了，可惜。
 
-web和安卓对应版本:</br>
+##web和安卓对应版本:</br>
 [https://github.com/huang303513/WebBasicCommonDemos](https://github.com/huang303513/WebBasicCommonDemos)</br>
 [https://github.com/huang303513/AndroidBasicCommonDemos](https://github.com/huang303513/AndroidBasicCommonDemos)</br>
 
-#放在一个仓库太大、以后更新都放第二期仓库了。地址如下：
+##放在一个仓库太大、以后更新都放第二期仓库了。地址如下：
 [https://github.com/huang303513/The-Demo-Of-Common-Study](https://github.com/huang303513/The-Demo-Of-Common-Study)</br>
 imageivew的contentmodel属性设置看下图我再也不迷糊了：</br>
 ![image](https://github.com/huang303513/iOS-Study-Demo/blob/master/UiimageView%E7%9A%84contentmodel%E5%9B%BE%E7%89%87%E6%BC%94%E7%A4%BA.jpg)
