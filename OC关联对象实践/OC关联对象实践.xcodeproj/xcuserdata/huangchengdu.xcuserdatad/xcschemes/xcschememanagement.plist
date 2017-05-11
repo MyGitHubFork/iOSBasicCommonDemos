@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>导航控制器全屏滑动返回.xcscheme</key>
+		<key>OC关联对象实践.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DDC58B6C1B8726CA005D6BC5</key>
+		<key>DDCA84831B75D58300F162A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DDC58B851B8726CA005D6BC5</key>
+		<key>DDCA849C1B75D58300F162A6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
